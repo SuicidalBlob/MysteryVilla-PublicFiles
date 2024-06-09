@@ -1,28 +1,29 @@
 [Back to README](README.md)
 
 character vals:
-    -base_lust: the minimum lust she has
-    -lust: how much they will search for sex outside of you (ex: masturbation, prostitution/free sex)
-    -love: how much in love it is
-    -slave: how much submissive it is
-    -can_not_move:flag that show if can move back to their room when sleeping
-    -blowjob_count
-    -vaginal_count
-    -anal_count
-    -cum_ingested
-    -piss_ingested
-    -pregnant: 0:not pregnant; 1:birth; 2-10:belly; >10:not showing
-    -fetusType: 0:human, 1:dog
-    -pregnant_count
-    -abortions
-    -babies
+* base_lust: the minimum lust she has
+* lust: how much they will search for sex outside of you (ex: masturbation, prostitution/free sex)
+* love: how much in love it is
+* slave: how much submissive it is
+* can_not_move:flag that show if can move back to their room when sleeping
+* blowjob_count
+* vaginal_count
+* anal_count
+* cum_ingested
+* piss_ingested
+* pregnant: 0:not pregnant; 1:birth; 2-10:belly; >10:not showing
+* fetusType: 0:human, 1:dog
+* pregnant_count
+* abortions
+* babies
 
 Game vals:
-    -#money
-    -#day
+- #money
+- #day
 
 Velma:
-    -love
+- love
+
         >5        will starts open up to you
         >~14-15   will romantic dinner
         >~14-20   will start blowjob
@@ -31,7 +32,7 @@ Velma:
         >35       deep throat
         >45       sex
         >55       anal
-    -slave
+- slave
         >10 will smile at insults    | ~~~~~~~~~~~~~~~~ | ~~~~~~~~~~~~~~~~~~~~~~~~ |
         >20 will smile at touching   | ~~~~~~~~~~~~~~~~ | ~~~~~~~~~~~~~~~~~~~~~~~~ |
         >25 will blush at touching   | strip top        | ~~~~~~~~~~~~~~~~~~~~~~~~ |
