@@ -45,18 +45,18 @@
 
     | value | brothel                  | general          | prostitution             | nicknames                 |
     | ----- | ------------------------ | ---------------- | ------------------------ | ------------------------- |
-    | >10  | will smile at insults    |                  |                          |                           |
-    | >20  | will smile at touching   |                  |                          |                           |
-    | >25  | will blush at touching   | strip top        |                          |                           |
-    | >30  | will thank for insults   | strip bottom     |                          | will call herself a slut  |
-    | >40  | will thank for grope     |                  | stranger handJ           |                           |
-    | >50  | will smile at light hits | strip bra        | stranger suck            |                           |
-    | >60  | will smile at heavy hits | strip panties    | stranger deep            |                           |
-    | >70  | will thank for light hits|                  | stranger sex             | will call herself a whore |
-    | >80  |                          |                  | drink cum                |                           |
-    | >85  | will thank for heavy hits|                  | stranger anal            |                           |
-    | >90  |                          |                  | drink piss + ass licking |                           |
-    | >99  | fully obedient
+    | >10   | will smile at insults    |                  |                          |                           |
+    | >20   | will smile at touching   |                  |                          |                           |
+    | >25   | will blush at touching   | strip top        |                          |                           |
+    | >30   | will thank for insults   | strip bottom     |                          | will call herself a slut  |
+    | >40   | will thank for grope     |                  | stranger handjob         |                           |
+    | >50   | will smile at light hits | strip bra        | stranger suck            |                           |
+    | >60   | will smile at heavy hits | strip panties    | stranger deep            |                           |
+    | >70   | will thank for light hits|                  | stranger sex             | will call herself a whore |
+    | >80   |                          |                  | drink cum                |                           |
+    | >85   | will thank for heavy hits|                  | stranger anal            |                           |
+    | >90   |                          |                  | drink piss + ass licking |                           |
+    | >99   | fully obedient
 - BrothelStory:
     * 0 nothing
     * 1 catcall
