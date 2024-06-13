@@ -1,0 +1,113 @@
+(moveTo Nowhere;dialogue character hideAll)
+(play music Fluffing-a-Duck)
+(dialogue character show MysteryMachine MysteryMachine 0.7)
+(c MysteryMachine play ComeFromLeft)
+(notification vroom)
+(dialogue auto 1)
+
+(dialogue character show Fred Fred 0.85; dialogue character LookBack Fred; dialogue character outfit Fred)
+Fred:Alright gang, we are here.
+(dialogue character show Villa Villa 0.3)
+The mystery machine stopped in front of a creepy looking old building.
+(dialogue character show Velma Velma 0.15; dialogue character outfit Velma)
+Velma:You can already tell this is haunted
+(dialogue character show Shaggy Shaggy 0.55; dialogue character LookBack Shaggy; dialogue character outfit Shaggy)
+(dialogue character show Scooby Scooby 0.7; dialogue character LookBack Scooby; dialogue character outfit Scooby)
+Shaggy:Are you sure this is the place, Fred?
+Shaggy:Maybe my grand-grand-grandfather had another place in mind when he wrote his will
+Fred:Nope, this is the place. I checked and this is the biggest building in this area.
+(dialogue character show Daphne Daphne 0.35; dialogue character outfit Daphne)
+Daphne:And the only one.
+Fred:... yes, but we know that the size is what matter here.
+(dialogue character emote Velma eyes happy eyebrows happy mouth bored)
+(notification pff)
+Velma: . . .
+(dialogue character emote Daphne eyes bored eyebrows angry mouth bored)
+(notification hmh)
+Daphne: . . .
+(dialogue character emote Velma face)
+Fred:I mean, the bigger the house, the more mystery there is.
+Scooby:Yeah, buddy, that's it...
+Fred:Anyway, gang. Let's go in!
+(dialogue speed 0.01; dialogue size 0.6)
+Scooby:that's what she said!
+(dialogue speed 1; dialogue size 1)
+(c Shaggy emote face sad mouth angry)
+Shaggy:Do we have to?
+Fred:We did promised your grand-grand-grandfather that we will resolve all the mysteries in this villa.
+(c Shaggy emote eyes close)
+Shaggy:This will be the worst time of my life!
+(dialogue character hide Villa; dialogue character hide MysteryMachine)
+(dialogue character hide Fred; dialogue character hide Velma)
+(dialogue character hide Daphne; dialogue character hide Shaggy)
+(dialogue character hide Scooby)
+(dialogue auto 0.5)
+
+Narrator:Little did he know that this will be the best time of his life
+(dialogue character show Scooby)
+Scooby: . . . who are you?
+(dialogue character hide Scooby)
+Narrator:Just your friendly neighborhood narrator
+(dialogue character show Scooby)
+Scooby:...
+(dialogue character emote Scooby eyes bored)
+Scooby:Oh, ok
+(dialogue character emote Scooby eyes neutral)
+(dialogue character hide Scooby)
+The gang headed towards the old building and with a creek in its hinges, the door opened
+(dialogue character show Fred)
+Fred:Ah, do you smell this, gang? It smell like a big adventure!
+(dialogue character hide Fred)
+(dialogue character show Daphne)
+Daphne:Bleah, it smell like dust and spider webs! I will dirty my clothes again!
+(dialogue character hide Daphne)
+(dialogue character show Velma)
+Velma:First of all, we need to find the switch for the lights, I can't see anything!
+(dialogue character hide Velma)
+(dialogue character show Shaggy)
+(c Shaggy emote face neutral)
+(HScene start Effects/Screen)
+Shaggy:Does this house even have electricity?
+(dialogue character hide Shaggy)
+(moveTo MainHall)
+(notification whoosh)
+(play music)
+(HScene play FadeOut)
+suddenly the candles lighted themselves and illuminated the entire building
+(dialogue character show Shaggy)
+(c Shaggy emote mouth sad)
+Shaggy:Because this was not creepy enough
+(dialogue character hide Shaggy)
+(dialogue character show Velma)
+Velma:Well, at least this resolve our light problem
+(dialogue character hide Velma)
+(dialogue character show Fred)
+Fred:Now it's the time to split up
+Fred:Velma, Daphne and I will...
+(dialogue character hide Fred)
+(dialogue character show Daphne)
+(moveCaracterTo Daphne DaphneRoom)
+Daphne:Sorry Fred, not this time. I'll go alone to find the rooms
+(dialogue character hide Daphne)
+(dialogue character show Velma)
+(moveCaracterTo Velma Library)
+Velma:And I'll go to find the library
+(dialogue character hide Velma)
+(dialogue character show Fred)
+Fred:Then Shaggy, Scooby, we will...
+(dialogue character LookBack Shaggy)
+(dialogue character hide Fred)
+(dialogue character show Shaggy)
+(c Shaggy emote face angry)
+Shaggy:Oh no, thank you Fred, we know what "splitting up" means to you
+(dialogue character show Scooby)
+Scooby:We're not interested
+(dialogue character hide Shaggy)
+(dialogue character show Fred)
+(moveCharacterTo Fred Dungeon)
+Fred:Oh... Then... I'll go check the house ... alone ... all by myself
+(dialogue character hide Fred)
+(dialogue character show Shaggy)
+(c Shaggy emote face angry mouth happy)
+Shaggy:I guess we'll raid the kitchen as usual, Scoobs!
+Scooby:he he he

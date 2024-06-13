@@ -1,0 +1,291 @@
+{
+    "images":
+    [
+        {
+            "id": "hair 1 1",
+            "name": "hair",
+            "path": "Imgs/hair 1",
+            "characterName": "Velma",
+            "characterPart": "hair",
+            "position": {"x": 0.412, "y": 2.875},
+            "layerOrder": 8
+        },
+        {
+            "id": "hair 2 1",
+            "name": "hair",
+            "path": "Imgs/hair 1",
+            "characterName": "Velma",
+            "characterPart": "hair",
+            "position": {"x": 0.421, "y": 2.589},
+            "layerOrder": 8
+        },
+        {
+            "id": "hair 3 1",
+            "name": "hair",
+            "path": "Imgs/hair 1",
+            "characterName": "Velma",
+            "characterPart": "hair",
+            "position": {"x": -0.398, "y": 2.294},
+            "layerOrder": 8,
+            "rotation": -8.32
+        },
+        {
+            "id": "lips 1 1",
+            "name": "lips",
+            "path": "Imgs/lips 1",
+            "characterName": "Velma",
+            "characterPart": "lips",
+            "position": {"x": -0.171, "y": 2.763},
+            "layerOrder": 6
+        },
+        {
+            "id": "lips 2 1",
+            "name": "lips",
+            "path": "Imgs/lips 2",
+            "characterName": "Velma",
+            "characterPart": "lips",
+            "position": {"x": -0.162, "y": 2.492},
+            "layerOrder": 6
+        },
+        {
+            "id": "lips 3 1",
+            "name": "lips",
+            "path": "Imgs/lips 3",
+            "characterName": "Velma",
+            "characterPart": "lips",
+            "position": {"x": -0.972, "y": 2.254},
+            "layerOrder": 6
+        },
+        {
+            "id": "v 1 1",
+            "name": "v body",
+            "path": "Imgs/Velma 1 1",
+            "characterName": "Velma",
+            "characterPart": "body",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 2
+        },
+        {
+            "id": "v 1 2",
+            "name": "v body",
+            "path": "Imgs/Velma 1 2",
+            "characterName": "Velma",
+            "characterPart": "body",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 2
+        },
+        {
+            "id": "bubble 1 1",
+            "name": "bubble body",
+            "path": "Imgs/Soap 1 1",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 4
+        },
+        {
+            "id": "bubble 1 2",
+            "name": "bubble body",
+            "path": "Imgs/Soap 1 2",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 4
+        },
+        {
+            "id": "v 2 1",
+            "name": "v body",
+            "path": "Imgs/Velma 2 1",
+            "characterName": "Velma",
+            "characterPart": "body",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 2
+        },
+        {
+            "id": "v 2 2",
+            "name": "v body",
+            "path": "Imgs/Velma 2 2",
+            "characterName": "Velma",
+            "characterPart": "body",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 2
+        },
+        {
+            "id": "bubble 2 1",
+            "name": "bubble body",
+            "path": "Imgs/Soap 2 1",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 4
+        },
+        {
+            "id": "bubble 2 2",
+            "name": "bubble body",
+            "path": "Imgs/Soap 2 2",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 4
+        },
+        {
+            "id": "v 3 1",
+            "name": "v body",
+            "path": "Imgs/Velma 3 1",
+            "characterName": "Velma",
+            "characterPart": "body",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 2
+        },
+        {
+            "id": "v 3 2",
+            "name": "v body",
+            "path": "Imgs/Velma 3 2",
+            "characterName": "Velma",
+            "characterPart": "body",
+            "position": {"x": 0, "y": 0},
+            "layerOrder": 2
+        },
+        {
+            "id": "w 1",
+            "name": "water",
+            "path": "Imgs/water 1",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": -2, "y": 1.75},
+            "layerOrder": 10
+        },
+        {
+            "id": "w 2",
+            "name": "water",
+            "path": "Imgs/water 2",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": -2, "y": 1.75},
+            "layerOrder": 10
+        },
+        {
+            "id": "w 3",
+            "name": "water",
+            "path": "Imgs/water 3",
+            "characterName": "",
+            "characterPart": "",
+            "position": {"x": -2, "y": 1.75},
+            "layerOrder": 10
+        }
+    ],
+    "frames":
+    [
+        {
+            "name": "v 1 1",
+            "imageNames": ["v 1 1", "hair 1 1", "lips 1 1"],
+            "duration": 1,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 1 2",
+            "imageNames": ["v 1 2", "hair 1 1", "lips 1 1"],
+            "duration": 1,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 1 1 bubble",
+            "imageNames": ["v 1 1", "bubble 1 1", "hair 1 1", "lips 1 1"],
+            "duration": 1,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 1 2 bubble",
+            "imageNames": ["v 1 2", "bubble 1 2", "hair 1 1", "lips 1 1"],
+            "duration": 1,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 2 1",
+            "imageNames": ["v 2 1", "hair 2 1", "lips 2 1"],
+            "duration": 0.5,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 2 2",
+            "imageNames": ["v 2 2", "hair 2 1", "lips 2 1"],
+            "duration": 0.5,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 2 1 bubble",
+            "imageNames": ["v 2 1", "bubble 2 1", "hair 2 1", "lips 2 1"],
+            "duration": 0.5,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 2 2 bubble",
+            "imageNames": ["v 2 2", "bubble 2 2", "hair 2 1", "lips 2 1"],
+            "duration": 0.5,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 3 1",
+            "imageNames": ["v 3 1", "hair 3 1", "lips 3 1"],
+            "duration": 0.25,
+            "isInstant": "false"
+        },
+        {
+            "name": "v 3 2",
+            "imageNames": ["v 3 2", "hair 3 1", "lips 3 1"],
+            "duration": 0.25,
+            "isInstant": "false"
+        },
+        {
+            "name": "w 1",
+            "imageNames": ["w 1"],
+            "duration": 0.3,
+            "isInstant": "false"
+        },
+        {
+            "name": "w 2",
+            "imageNames": ["w 2"],
+            "duration": 0.3,
+            "isInstant": "false"
+        },
+        {
+            "name": "w 3",
+            "imageNames": ["w 3"],
+            "duration": 0.3,
+            "isInstant": "false"
+        }
+    ],
+    "animations":
+    [
+        {
+            "name": "Clean",
+            "frameNames": ["v 1 1", "v 1 2"]
+        },
+        {
+            "name": "Clean bubble",
+            "frameNames": ["v 1 1 bubble", "v 1 2 bubble"]
+        },
+        {
+            "name": "Masturbate",
+            "frameNames": ["v 2 1", "v 2 2"]
+        },
+        {
+            "name": "Masturbate bubble",
+            "frameNames": ["v 2 1 bubble", "v 2 2 bubble"]
+        },
+        {
+            "name": "Cum",
+            "frameNames": ["v 3 1", "v 3 2"]
+        },
+        {
+            "name": "Water",
+            "frameNames": ["w 1", "w 2", "w 3"]
+        }
+    ],
+    "groups":
+    [
+        "Clean,Clean bubble,Masturbate,Masturbate bubble,Cum",
+        "Water"
+    ],
+    "startingAnimations":["Clean", "Water"]
+}

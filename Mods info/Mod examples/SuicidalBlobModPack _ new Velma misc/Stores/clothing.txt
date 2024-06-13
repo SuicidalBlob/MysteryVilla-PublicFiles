@@ -1,0 +1,2 @@
+"Mod item name 1" P=10 S="Velma/Mods" T=misc D="Mod/BlobMods/BoobCensure" I="Boob censure" C="Velma" CON="hasItem[Velma,Boob censure]=0"
+"Mod item name 2" P=10 S="Velma/Mods" T=misc I="Pussy censure" C="Velma" CON="hasItem[Velma,Pussy censure]=0"

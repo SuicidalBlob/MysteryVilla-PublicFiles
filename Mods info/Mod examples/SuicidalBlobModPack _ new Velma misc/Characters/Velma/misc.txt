@@ -1,0 +1,3 @@
+Boob censure:mod -0.36,7.59 100 T=mod,!boobs,!nipple
+Boob censure:mod 2.44,8.42 100 T=mod,!boobs,!nipple
+Pussy censure:mod 0.33,1.04 100 T=mod,!pussy

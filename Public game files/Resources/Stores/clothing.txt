@@ -1,0 +1,34 @@
+"Sexy sweater" P=50 S="Velma/Torso" I="Sexy sweater" C="Velma" CON="hasItem[Velma,Sexy sweater]=0"
+"Christmas sweater" P=50 S="Velma/Torso" I="Christmas sweater" C="Velma" CON="hasItem[Velma,Christmas sweater]=0"
+
+"Shirt" P=5 S="Velma/Torso" I="Shirt" C="Velma" CON="hasItem[Velma,Shirt]=0"
+"Crop top" P=5 S="Velma/Torso" I="Crop top" C="Velma" CON="hasItem[Velma,Crop top]=0"
+"ButtonUp" P=25 S="Velma/Torso" D="Velma/ButtonUp" I="ButtonUp" C="Velma" CON="hasItem[Velma,ButtonUp]=0"
+"ButtonUp open" P=15 S="Velma/Torso" I="ButtonUp open" C="Velma" CON="hasItem[Velma,ButtonUp open]=0"
+
+"Suite jacket" P=15 S="Velma/Torso" I="Suite jacket" C="Velma" CON="hasItem[Velma,Suite jacket]=0"
+"Towel" P=15 S="Velma/Torso" I="Towel" C="Velma" CON="hasItem[Velma,Towel]=0"
+"Body suit" P=50 S="Velma/Torso" I="Body suit" C="Velma" CON="hasItem[Velma,Body suit]=0"
+
+"Short skirt" P=20 S="Velma/Bottom" I="Short skirt" C="Velma" CON="hasItem[Velma,Short skirt]=0"
+"Shorter skirt" P=50 S="Velma/Bottom" I="Shorter skirt" C="Velma" CON="hasItem[Velma,Shorter skirt]=0"
+"Even shorter skirt" P=100 S="Velma/Bottom" D="Velma/AlmostSkirt" I="Almost skirt1" C="Velma" CON="hasItem[Velma,Almost skirt1]=0"
+
+"Long pants" P=10 S="Velma/Bottom" D="Velma/LongPants" I="Pants" C="Velma" CON="hasItem[Velma,Pants]=0"
+"Short pants" P=20 S="Velma/Bottom" D="Velma/ShortPants" I="Short pants" C="Velma" CON="hasItem[Velma,Short pants]=0"
+"Micro pants" P=50 S="Velma/Bottom" D="Velma/MiniPants" I="Mini pants" C="Velma" CON="hasItem[Velma,Mini pants]=0"
+
+"Comfort bra" P=10 S="Velma/Underwear" I="Comfort bra" C="Velma" CON="hasItem[Velma,Comfort bra]=0"
+"Strapless underwear" P=20 S="Velma/Underwear" D="Velma/StraplessBra" I="Strapless bra,Small underwear" C="Velma" CON="hasItem[Velma,Strapless bra]=0"
+"Sexy underwear" P=25 S="Velma/Underwear" D="Velma/SexyBra" I="Sexy bra,Sexy underwear" C="Velma" CON="hasItem[Velma,Sexy bra]=0"
+"Patch underwear" P=25 S="Velma/Underwear" D="Velma/PatchBra" I="Patch bra,Patch underwear" C="Velma" CON="hasItem[Velma,Patch bra]=0"
+"Bikini" P=50 S="Velma/Underwear" D="Velma/MicroBikini" I="Bikini,Thong" C="Velma" CON="hasItem[Velma,Bikini]=0"
+
+"Glasses" P=10 S="Velma/Items" T=misc D="Velma/Glasses" I="Glasses2" C="Velma" CON="hasItem[Velma,Glasses2]=0"
+"Flags" P=0 S="Velma/Items" T=misc D="Velma/Flags" I="Flag 3 colors 1" C="Velma" CON="hasItem[Velma,Flag 3 colors 1]=0"
+
+"Sunglasses" P=10 S="Shaggy" T=misc I="Sunglasses" C="Shaggy" CON="hasItem[Shaggy,Sunglasses]=0"
+"Leather jacket" P=20 S="Shaggy" I="Leather jacket" C="Shaggy" CON="hasItem[Shaggy,Leather jacket]=0"
+"Tight t-shirt" P=20 S="Shaggy" I="Tight t-shirt" C="Shaggy" CON="hasItem[Shaggy,Tight t-shirt]=0"
+"Snake wormer" P=10 S="Shaggy" T=misc I="Snake wormer" C="Shaggy" CON="hasItem[Shaggy,Snake wormer]=0"
+"Flags" P=0 S="Shaggy" T=misc D="Shaggy/Flags" I="Flag 3 colors 1" C="Shaggy" CON="hasItem[Shaggy,Flag 3 colors 1]=0"

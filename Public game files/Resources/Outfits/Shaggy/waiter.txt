@@ -1,0 +1,14 @@
+clothingtag:
+top
+bottom
+:clothingtag
+
+clothing:
+Shirt
+Vest
+Pants
+:clothing
+
+misc:
+Tag
+:misc
