@@ -1,0 +1,68 @@
+{
+    "objects": [
+        {
+            "angle": 0.0,
+            "buttonData": [
+                "Scooby"
+            ],
+            "buttonImagePath": "circle",
+            "buttonText": "Edit Scooby",
+            "buttonType": "OSI_OpenEditor",
+            "color": {
+                "a": 1.0,
+                "b": 1.0,
+                "g": 1.0,
+                "r": 1.0
+            },
+            "condition": "",
+            "disconnectText": false,
+            "hoverButtonAlpha": 0.5,
+            "notHoverButtonAlpha": 0.0,
+            "pixelsPerUnitButtonImage": 0.0,
+            "position": {
+                "x": 0.5,
+                "y": 0.22
+            },
+            "propImagePath": "",
+            "size": {
+                "x": 0.25,
+                "y": 0.3
+            },
+            "types": [
+                1
+            ]
+        },
+        {
+            "angle": 0.0,
+            "buttonData": [
+                "Library"
+            ],
+            "buttonImagePath": "InputFieldBackground",
+            "buttonText": "Back",
+            "buttonType": "OSI_MoveTo",
+            "color": {
+                "a": 1.0,
+                "b": 1.0,
+                "g": 1.0,
+                "r": 1.0
+            },
+            "condition": "",
+            "disconnectText": true,
+            "hoverButtonAlpha": 0.8,
+            "notHoverButtonAlpha": 0.7,
+            "pixelsPerUnitButtonImage": 1.0,
+            "position": {
+                "x": 0.8,
+                "y": 0.4
+            },
+            "propImagePath": "",
+            "size": {
+                "x": 0.15,
+                "y": 0.4
+            },
+            "types": [
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+[character[Shaggy,TouchedBong];=0;=1]
+{
+    (setCar Shaggy TouchedBong 1)
+    (c Shaggy show Shaggy 0.75 -0.8 2; c Shaggy lookback; c Shaggy outfit)
+    Shaggy:Oh shit, Scooby! Look! Free drugs
+    (c Scooby show Scooby 0.25 -0.5 2; c Scooby outfit)
+    Scooby:Jackpot!
+    (c Shaggy emote mouth bored eyes close eyebrows angry)
+    Shaggy:. . .
+    (c Scooby emote eyes close)
+    (c Shaggy emote face happy eyes out_baked)
+    Scooby:. . .
+    (c Scooby emote eyes backed)
+    Shaggy:Oh shit! I think it's working
+    (HScene start Effects/Screen)
+    (HScene play FadeIn)
+    (dialogue auto 1)
+
+    (moveTo DreamLand)
+    (HScene play FadeOut)
+    (dialogue auto 1)
+
+    (HScene stop)
+    Shaggy:Dude! Nice!
+}
+{
+    (c Shaggy show Shaggy 0.75 -0.8 2; c Shaggy lookback; c Shaggy outfit)
+    (c Scooby show Scooby 0.25 -0.5 2; c Scooby outfit)
+    (c Shaggy emote mouth bored eyes close eyebrows angry)
+    (dialogue auto 1)
+    Shaggy:. . .
+    (c Scooby emote eyes close)
+    (c Shaggy emote face happy eyes out_baked)
+    (dialogue auto 1)
+    Scooby:. . .
+    (c Scooby emote eyes backed)
+    (HScene start Effects/Screen)
+    (HScene play FadeIn)
+    (dialogue auto 1)
+
+    (moveTo DreamLand)
+    (HScene play FadeOut)
+    (dialogue auto 1)
+
+    (HScene stop)
+    (skip)
+}
