@@ -27,7 +27,7 @@
         * outfit <name> removeTag <outfit_tag>
         * lookback <name>
         * emote <name> (face <face_name> | eyes <eyes_name> | mouth <mouth_name> | eyebrows <eyebrows_name> | <other> [opacity])+
-            > opacity can be an equation ony if it start with "ec:"
+            > opacity can be an equation only if it start with "ec:"
         * wearMisc <name> <misc_name>
         * wearCloth <name> <clothing_name>
         * skinColor <name> <R>,<G>,<B>[,A]
@@ -70,7 +70,7 @@
     * start <hscene_name>
     * stop
     * setParameter <param_name> <_equation> [instant](any value)
-    * variant <variant_name> [one_variant](any value)
+    * variant <variant_name> [one_variant](any value) [A=<alpha>]
     * play <state_name>
     * sound <sound_name>
     * sound stop <sound_name>

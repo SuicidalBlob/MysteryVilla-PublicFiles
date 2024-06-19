@@ -19,3 +19,7 @@ What you can't do at the moment:
 * create new mini games.
 
 If an original file contains a list of things (eg: store files or clothing/misc files for charactesr), the data from your files will be added at the end of the already existing files. Otherwise it will overwrite (eg: dialogue files or outfit files)
+
+To add mods for the android build, you need a computer. The mods folder needs to pe places inside the folder:
+
+    Internal storage\Android\data\com.BlobProduction.MysteryVilla\files

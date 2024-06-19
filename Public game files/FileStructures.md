@@ -26,6 +26,7 @@
 	 |  |  > Hole
 	 |  |  |   back.png
 	 |  |  |   pref.prefab
+	 |  |  |   props.prefab
 	 |  |   back.png
 	 |  |   pref.prefab
 	 |  > Hospital
@@ -44,6 +45,10 @@
 	 |  |   back.png
 	 |  |   pref.prefab
 	 |  > Map
+	 |  |  > Mall
+	 |  |  |   back.png
+	 |  |  |   pref.prefab
+	 |  |  |   props.prefab
 	 |  |   back.png
 	 |  |   pref.prefab
 	 |  > Park
@@ -59,6 +64,7 @@
 	 |  > VelmaRoom
 	 |  |   back.png
 	 |  |   pref.prefab
+	 |  |   props.prefab
 # > Books
 	 |  > Books
 	 |  |  > The fool
@@ -290,7 +296,11 @@
 	 |  |  |   flag_progress.png
 	 |  |  |   goatee.png
 	 |  |  |   joint.png
+	 |  |  |   measurements.png
 	 |  |  |   mustache.png
+	 |  |  |   pubes0.png
+	 |  |  |   pubes1.png
+	 |  |  |   pubes2.png
 	 |  |  |   sung.png
 	 |  |  |   tag.png
 	 |  |  |   worm.png
@@ -302,6 +312,9 @@
 	 |  |  |   neutral.png
 	 |  |  |   sad.png
 	 |  |  > Prefabs
+	 |  |  |   elephant.prefab
+	 |  |  |   elephant_ear.png
+	 |  |  |   googly_eyes.prefab
 	 |  |  |   joint.prefab
 	 |  |   clothing.txt
 	 |  |   Hair.png
@@ -523,6 +536,7 @@
 	 |  |  |   l_rings.png
 	 |  |  |   Magnifyer.png
 	 |  |  |   maid_cuffs.png
+	 |  |  |   measurements.png
 	 |  |  |   metal_colar0.png
 	 |  |  |   metal_colar1.png
 	 |  |  |   mop.png
@@ -612,12 +626,14 @@
 	 |  |  |  |   hand_squeeze_back.prefab
 	 |  |  |  |   pinch_left.prefab
 	 |  |  |  |   pinch_right.prefab
+	 |  |  |   boobly_eyes.prefab
 	 |  |  |   egg.png
 	 |  |  |   egg.prefab
 	 |  |  |   eggs_X.prefab
 	 |  |  |   egg_controll_1.prefab
 	 |  |  |   egg_red.png
 	 |  |  |   egg_wire.png
+	 |  |  |   googly_eyes.prefab
 	 |  |  |   magic_wand.prefab
 	 |  |  |   remote.png
 	 |  |  |   Shock.prefab
@@ -635,6 +651,7 @@
 	 |  |   prefab.prefab
 	 |  |   prefab_.prefab
 	 |   CaracterAnimations.prefab
+	 |   Googly eye.prefab
 # > Dialogue
 	 |  > .vscode
 	 |  |   settings.json
@@ -785,6 +802,7 @@
 	 |  |  |  |  |  |  |   TheLeaf.txt
 	 |  |  |  |  |  |   Beards.txt
 	 |  |  |  |  |  |   Flags.txt
+	 |  |  |  |  |  |   Pubes.txt
 	 |  |  |  |  |  > Velma
 	 |  |  |  |  |  |   AlmostSkirt.txt
 	 |  |  |  |  |  |   Bunny.txt
@@ -824,6 +842,9 @@
 	 |  |  |  |   buyOne.txt
 	 |  |  |  |   buyOneV2.txt
 	 |  |  |  |   buyV2.txt
+	 |  |  |  |   ClothingShop.txt
+	 |  |  |  |   CosplayShop.txt
+	 |  |  |  |   JobShop.txt
 	 |  |  |  |   Mall.txt
 	 |  |  |  |   SexyShop.txt
 	 |  |  > Park
@@ -1298,6 +1319,22 @@
 	 |  |   sexy_waitress.txt
 	 |  |   waitress.txt
 	 |  |   waitress_sexy.txt
+# > Room Items
+	 |  > Hole
+	 |  |   Painting.png
+	 |  |   panis.png
+	 |  > Map
+	 |  |  > Mall
+	 |  |  |   clothing.png
+	 |  |  |   cosplay.png
+	 |  |  |   job.png
+	 |  > ShaggyRoom
+	 |  |   bed.png
+	 |  |   bust.png
+	 |  |   closet.png
+	 |  |   dog_bust.png
+	 |  > VelmaRoom
+	 |  |   closet.png
 # > Sounds
 	 |  > Music
 	 |  |   Cheerful-Whistling.mp3
