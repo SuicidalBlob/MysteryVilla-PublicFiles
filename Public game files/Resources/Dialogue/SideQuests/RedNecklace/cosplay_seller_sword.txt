@@ -1,0 +1,23 @@
+[isinroom[Hana];=1;true]
+{
+    Hana:It was too big to be called a sword
+    Hana:Massive, thick, heavy, and far too rough
+    Hana:Indeed, it was a heap of raw iron
+    Scooby:* I can show you something massive, thick and raw * He he he
+    Shaggy:If it's so pure iron, how can it stay on that shelves
+    Hana:Because it's not real, silly
+    Hana:It's a replica
+    Shaggy:Can I try it?
+    Hana:Sure
+    you take the sword in your hands
+    for being a replica, it's still heavy
+    you swing it from side to side, in an attempt to look cool
+    you don't
+    Shaggy:* hmm... I don't think it has anything hidden inside *
+    Shaggy:* I don't see any panels anywhere anyway *
+    Shaggy:* I don't think the necklace is hidden here *
+}
+{
+    indeed, it was just a heap of raw foam
+    still no necklace in sight
+}

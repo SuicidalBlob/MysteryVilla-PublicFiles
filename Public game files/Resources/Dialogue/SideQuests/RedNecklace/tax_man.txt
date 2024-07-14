@@ -1,0 +1,480 @@
+(play music Comedy-Detective)
+(skip)
+[
+    (isinroom[Shrewd]=0)not in room
+    (#quest_RedNecklace_ledger>1.999)You can touch Anisa
+    Say something
+    Back
+]
+{
+    Shrewd is not here
+}
+{
+    [#quest_RedNecklace_ledger;=2;true]
+    {
+        (setVar #quest_RedNecklace_ledger 3)
+        Shrewd:What!? Really? How? Why?
+        Shaggy:Miss Thorn realized how good you are towards one of hers
+        Shaggy:and decided you can touch her in any way you want
+        Shaggy:But no penetration of any kind
+        Shrewd:You made my entire week! I'll go right now
+    }
+    {
+        Shrewd:You are right! I'll go right now
+    }
+    (movecharacterto Shrewd Sex_shop)
+}
+{
+    (dialogue start SideQuests/RedNecklace/question_builder 4)
+    [$qpi_0;<2;true]
+    {
+        (skip)
+        [$qpi_2;=0;=1;=2;=3;true]
+        {
+            (//seen question)
+            (skip)
+            [$qpi_1;=4;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Shrewd:Only when I go collecting her taxes
+                    Shrewd:Which is twice as needed as she never pay the first time
+                }
+                {
+                    (//2)
+                    Shrewd:That lazy bum? Unfortunately
+                    Shrewd:He keeps pestering me around
+                    [;2=#quest_RedNecklace_owner|2=#quest_RedNecklace_red_herring;true]
+                    {
+                        Shrewd:I do see him sometime at the academy's gate begging for money
+                    }
+                    {(skip)
+                }
+                {
+                    (//3)
+                    Shrewd:Anisa? She's a whore that graduated from Thorn's academy and now work at the sex shop 
+                    Shrewd:I sometimes see her when I need to collect the shop's taxes
+                    Shrewd:And while I'm there, I like to mess with her
+                    Shrewd:Too bad her mistress is not allowing anyone to touch her
+                    Shaggy:* this may be a way to get him out of his office in a hurry *
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                    [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Shrewd:The way she sometime make mistakes by mistake makes me thing her master is not playing with her enough
+                    }
+                    {
+                        Shrewd:The way she sometime make mistakes by mistake makes me thing her master is not playing with her enough
+                        Shrewd:So I make my way over there almost every day. She does happier now that I do that too
+                    }
+                    {(skip)
+                }
+                {
+                    (//4)
+                    Shrewd:Every time in my mirror
+                }
+                {
+                    (//5)
+                    Shrewd:That girl from the cosplay shop? Only when I need to collect that place's taxes
+                    [;5=#quest_RedNecklace_owner;5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Shrewd:I did feel she was angry at miss Thorn last time I've seen her
+                    }
+                    {
+                        Shrewd:I did feel she was angry at miss Thorn last time I've seen her
+                        Shrewd:Even if her revenue increased this week
+                    }
+                    {(skip)
+                }
+                {
+                    (//6)
+                    Shrewd:The last time I've seen it was around Thorn's neck
+                    Shrewd:The way she was parading it, it is really expensive
+                }
+                {
+                    (//7)
+                    Shrewd:First thing in the morning and the last thing going to bed
+                }
+                {
+                    (//8)
+                    Shrewd:Sometimes when rearranging my files. It's already written
+                    (dialogue start SideQuests/RedNecklace/tax_man_permit continue)
+                }
+                {
+                    (//9)
+                    Shrewd:When I collect Hana's taxes she gets my money from them
+                    (dialogue start SideQuests/RedNecklace/tax_man_safe continue)
+                }
+                {
+                    (//10)
+                    Shrewd:I've seen most of them because I wrote them just for fun
+                    Shrewd:If you write one, you can insult Anisa as much as you can
+                    Shrewd:Pity you can't touch her without her mistress' approval
+                    Shaggy:* this may be a way to get him out of his office in a hurry *
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                }
+                {
+                    (//else)
+                    Shrewd:I don't know. I didn't see anything
+                }
+            }
+            {
+                Shrewd:That I can't tell
+            }
+        }
+        {
+            (//stole question)
+            (skip)
+            [$qpi_1;=4;true]
+            {
+                (//did he stole)
+                (skip)
+                [$qpi_3;=6;<9;=9;true]
+                {
+                    Shrewd:I'm disappointed you would even suggest I would do something like that
+                    Shrewd:If I were to take something is as reposeting for not paying taxes
+                    Shrewd:and in this case it's not true
+                }
+                {
+                    Shrewd:Why would I do that?
+                }
+                {
+                    Shrewd:I don't remember reposeting any object like that
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;=7;true]
+                {
+                    (//other stole the gem)
+                    (skip)
+                    [$qpi_1;=1;=2;=3;=5;true]
+                    {
+                        Shrewd:I don't see why she would do that
+                    }
+                    {
+                        Shrewd:Most likely. That smelly bastard can't keep his hands to herself
+                    }
+                    {
+                        Shrewd:I don't know. She seems happier when I give her attention
+                        Shrewd:Maybe she did to get her mistress' attention?
+                        [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                        {
+                            Shrewd:I think she once said something along the line she wished her mistress would be as angry as me
+                        }
+                        {
+                            Shrewd:I think she once said something along the line she wished her mistress would be as angry as me
+                            Shrewd:So I'm doing all in my power to be angry for both of us
+                        }
+                        {(skip)
+                    }
+                    {
+                        Shrewd:When I tried to collect her taxes she seemed in a bad mood because of Thorn's order
+                        [;5=#quest_RedNecklace_owner;5=#quest_RedNecklace_red_herring;true]
+                        {
+                            Shrewd:She did say something about to spite her
+                        }
+                        {
+                            Shrewd:She did say something about to spite her. Even though she got more costumers in the end
+                        }
+                        {(skip)
+                    }
+                }
+                {
+                    Shrewd:If they even try they will pay dearly
+                }
+                {
+                    Shrewd:That I don't know I'm afraid
+                }
+            }
+        }
+        {
+            (//know question)
+            (skip)
+            [$qpi_1;=4;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Shrewd:Miss Thorn? I know she used to be in a rock band
+                    Shrewd:And now her and her band friends used the money they to open their academy
+                    Shrewd:And surprisingly they create quite a bit of profit
+                }
+                {
+                    (//2)
+                    Shrewd:No much. He appeared in that mall one day
+                    Shrewd:I don't know if he was homeless before and he just moved there or what
+                }
+                {
+                    (//3)
+                    Shrewd:Oh, I love her. Or rather I love messing with her
+                    Shrewd:I don't know a lot. She doesn't talk about herself and neater of us care
+                    Shrewd:All I need to know is that her owner is Thorn at the academy
+                    Shrewd:And that she's such a thirsty masochistic slut that she basically is asking to be abused
+                    Shrewd:It's a pity that her master is not allowing her to be touched by anyone else
+                    Shaggy:* this may be a way to get him out of his office in a hurry *
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                    [;3=#quest_RedNecklace_owner|3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Shrewd:No wonder she is not pleased with her master anymore
+                    }
+                    {(skip)
+                }
+                {
+                    (//4)
+                    Shrewd:Well of course I know about myself
+                    Shrewd:It's not a lot to tell
+                    Shrewd:I was a smart kind growing up so obviously I went into fiances
+                    Shrewd:And from there I learned that taking money from others is so much enjoyable than most of the things
+                    Shrewd:And it's not like I'm stealing from them, it's actually legal
+                }
+                {
+                    (//5)
+                    Shrewd:I don't know a lot of her to be honest
+                    Shrewd:I know she enjoy that nerdy staff so much that she opened a shop around it
+                    Shrewd:And apparently a lot of people are enjoying the same thing since she has quite a lof of profit
+                    [;3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Shrewd:Her revenue even increased this week
+                    }
+                    {(skip)
+                }
+                {
+                    (//6)
+                    Shrewd:I know it's important to Thorn since you barley see her without that necklace
+                    Shrewd:I believe she had it before she opened the academy
+                    Shrewd:And despite having it before having any money to her name, it still worth a lot
+                }
+                {
+                    (//7)
+                    Shrewd:Ah, yes. My ledger. You can say it's my partner in crimes
+                    Shrewd:I love writing in it so the moment I collect any taxes I log in it
+                    Shaggy:* maybe it contains some info on the necklace there *
+                    (if #quest_RedNecklace_ledger < 1)
+                    (setVar #quest_RedNecklace_ledger 1)
+                    (skip)
+                }
+                {
+                    (//8)
+                    Shrewd:It's the paper that homeless man needs for selling his trash
+                    Shrewd:I don't even know who would buy from him
+                    (dialogue start SideQuests/RedNecklace/tax_man_permit continue)
+                }
+                {
+                    (//9)
+                    Shrewd:I believe it's where she hold anything of value
+                    Shrewd:Everytime I collect taxes from her, she takes money from it
+                    (dialogue start SideQuests/RedNecklace/tax_man_safe continue)
+                }
+                {
+                    (//10)
+                    Shrewd:Well, yes. I've made most of them
+                    Shrewd:She loves to be screamed at and it makes her happy to have some proof of her inferiority
+                    Shrewd:What I would do to her if I was allowed to
+                    Shaggy:* this may be a way to get him out of his office in a hurry *
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                }
+                {
+                    (//else)
+                    Shrewd:I don't know anything about them
+                }
+            }
+            {
+                Shrewd:I'm not sure what they know so I can't say
+            }
+        }
+        {
+            (//needs question)
+            (skip)
+            [$qpi_1;=4;=2;=3;true]
+            {
+                (//he needs)
+                (skip)
+                [$qpi_3;=3;=4;<6;=7;=8;=9;=10;true]
+                {
+                    (//3)
+                    Shrewd:To be hones I would like be able to play with her body
+                    Shrewd:It's not like I grew bored if insulting her, but I would like to take it to another level
+                    Shaggy:* this may be a way to get him out of his office in a hurry *
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                }
+                {
+                    (//4)
+                    Shrewd:Huh?
+                }
+                {
+                    (//1-5)
+                    Shrewd:I need to them to pay their taxes at time
+                }
+                {
+                    (//6)
+                    Shrewd:I mean, the money I would get from it would pay her taxes from quite a while
+                }
+                {
+                    (//7)
+                    Shrewd:Of course I need it. It's the only thing that let me do my job
+                }
+                {
+                    (//8)
+                    Shrewd:Not really. The only thing I keep it is in the hope that homeless man can pay me for it somehow
+                }
+                {
+                    (//9)
+                    Shrewd:Only the money inside when it time to pay the taxes
+                    (dialogue start SideQuests/RedNecklace/tax_man_safe continue)
+                }
+                {
+                    (//10)
+                    Shrewd:I need to write more. I can't get enough sometimes
+                    Shrewd:Hmm... What I would do if I could touch her
+                    Shaggy:* this may be a way to get him out of his office in a hurry *
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                }
+                {
+                    (//else)
+                    Shrewd:I don't know anything about it
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=4;=8;true]
+                {
+                    Shrewd:What would that bum needs from me?
+                    [#quest_RedNecklace_permit;=0;true]
+                    {
+                        Shaggy:That... I don't know
+                    }
+                    {
+                        Shaggy:He needs a permit for selling his stuff
+                        (dialogue start SideQuests/RedNecklace/tax_man_permit continue)
+                    }
+                }
+                {(dialogue start SideQuests/RedNecklace/tax_man_permit continue)
+            }
+            {
+                (//x seller needs)
+                (skip)
+                [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                {
+                    Shrewd:The only thing I think she needs is attention from her master
+                    Shrewd:That bitch is always asking for it
+                }
+                {
+                    Shrewd:The only thing I think she needs is attention from her master
+                    Shrewd:That bitch is always asking for it
+                    Shrewd:So I give it everytime I see her
+                }
+                {Shrewd:She may needs attention from her master
+            }
+            {
+                Shrewd:That I don't know if they need something like that
+            }
+        }
+        {
+            Shrewd:I do not understand what you're saying
+        }
+    }
+    {
+        (skip)
+        [$qpi_2;=1;=2;=3;true]
+        {
+            (//stole)
+            (skip)
+            [$qpi_1;=4;true]
+            {
+                (//he stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Shrewd:How dare you accuse me of doing such a thing!
+                    Shrewd:I would never do something like that
+                    [
+                        (#quest_RedNecklace_ledger>3.99)I've seen your ledger
+                        Of, sorry
+                    ]
+                    {
+                        Shrewd:You... What did you do?
+                        Shaggy:You have miss Thorn put as paying her taxes that monday
+                        Shaggy:Even if she paid them thursday as usual
+                        Shaggy:You stole the necklace and used it for taxes
+                        Shrewd:And so what if I did? What ca you do
+                        Shaggy:Call the cops? You didn't just stole the necklace, but also thursday's money
+                        Shrewd:And you think that can affect me?
+                        Shaggy:Then I'll tell miss Thorn you can never interact with Anisa
+                        Shrewd:Hey now. You wouldn't, would you?
+                        Shaggy:And what is stopping me from doing it?
+                        Shrewd:I still have the necklace, I can give it back
+                        Shrewd:Come one, buddy old pall
+                        Shaggy:Give it to me and I'll see what I can do
+                        (setVar #quest_RedNecklace_ledger 5)
+                        (setVar #quest_RedNecklace_owner -1)
+                        (notification +1 necklace)
+                        (skip)
+                    }
+                    {
+                        Shrewd:You should
+                    }
+                }
+                {
+                    Shrewd:Why would I steal that?
+                }
+            }
+            {Shrewd:If they stole it then they need to pay higher taxes
+        }
+        {
+            (//knows)
+            (skip)
+            [$qpi_1;=4;true]
+            {
+                (//he knows)
+                Shrewd:Why not just ask me directly rather then saying I do and risk being wrong?
+                Shrewd:I have no reason to lie
+            }
+            {Shrewd:Ok? Why tell me?
+        }
+        {
+            (//wants)
+            (skip)
+            [$qpi_1;=4;true]
+            {
+                (//he wants)
+                Shrewd:Only I know what I want. Why say it as a matter of fact?
+            }
+            {
+                (//they wants)
+                (skip)
+                [$qpi_3;=4;=6;=8&$qpi_1=2;true]
+                {
+                    (//him)
+                    (skip)
+                    [$qpi_1;=2;true]
+                    {
+                        Shrewd:I guess he want that sell permit, not me
+                    }
+                    {
+                        Shrewd:To bad I don't want them
+                    }
+                }
+                {
+                    Shrewd:Everyone would like the money they'd get for it
+                }
+                {(dialogue start SideQuests/RedNecklace/tax_man_permit continue)
+                {Shrewd:I don't know how I can help you with that
+            }
+        }
+        {
+            Shrewd:I do not understand what you're saying
+        }
+    }
+}
+{(dialogue start Rooms/Map/Bank/Shrewd)
+(dialogue start SideQuests/RedNecklace/tax_man)
+dialogue start SideQuests/RedNecklace/tax_man

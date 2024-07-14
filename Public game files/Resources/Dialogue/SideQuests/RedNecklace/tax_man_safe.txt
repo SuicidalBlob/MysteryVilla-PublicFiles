@@ -1,0 +1,48 @@
+Shaggy:Were you able to pick at the code?
+[#quest_RedNecklace_safe2;>0;true]
+{Shrewd:Don't you already know the code?
+{
+    Shrewd:Maybe...
+    Shaggy:Come on man. Don't blue ball me here
+    Shrewd:What are you willing to pay for it?
+    [
+        (#money>200)200$
+        (#money>100)100$
+        (#money>50)50$
+        (#money>10)10$
+        Nothing
+    ]
+    {
+        (setVar #quest_RedNecklace_safe2 1)
+        (setVar #money #monday-200)
+        Shrewd:And it's a deal!
+        Shrewd:I'll write it on a paper... here
+        Shaggy:Thank you man!
+        Shrewd:Just for the record, I would have given it to you for far less
+        Shaggy:Oh, man! Can I have my money back then?
+        Shrewd:Of course not. Ha Ha Ha
+    }
+    {
+        (setVar #quest_RedNecklace_safe2 1)
+        (setVar #money #monday-100)
+        Shrewd:Deal!
+        Shrewd:I'll write it on a paper... here
+        Shaggy:Thank you man!
+        Shrewd:Just for the record, I would have given it to you for less
+        Shaggy:Oh, man! Can I have my money back then?
+        Shrewd:Of course not. Ha Ha Ha
+    }
+    {
+        (setVar #quest_RedNecklace_safe2 1)
+        (setVar #money #monday-50)
+        Shrewd:Hmm... ok, fain
+        Shrewd:I'll write it on a paper... here
+        Shaggy:Thank you man!
+    }
+    {
+        Shrewd:Don't insult me! My information is worth more
+    }
+    {
+        Shrewd:Then you will get nothing
+    }
+}

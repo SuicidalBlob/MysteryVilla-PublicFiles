@@ -1,0 +1,31 @@
+[isinroom[Shrewd];=1;true]
+{
+    Shrewd:I'm sorry, you can't go further than here
+    Shaggy:Come on man, I'll just take a look
+    Shrewd:No! Who knows what you looking at will do to my precious ledger
+    (if #quest_RedNecklace_ledger < 0.5)
+    (setVar #quest_RedNecklace_ledger 0.5)
+    (skip)
+}
+{
+    [;4=#quest_RedNecklace_owner;true]
+    {(moveTo Map/Bank/TaxOffice ledge_guilty do_not_load_props; skip)
+    {(moveTo Map/Bank/TaxOffice ledge_not_guilty do_not_load_props; skip)
+    you flip through the ledger as fas as you can to the day Thorn lost her necklace
+    usually, mondays for Thorn are written and then crossed out with red pen
+    [;4=#quest_RedNecklace_owner;true]
+    {
+        but that day it isn't
+        and the next thursday is not logged
+        Shaggy:I knew it. He did stole it
+        Shaggy:I need to confront him next time I have the chance
+        (if #quest_RedNecklace_ledger < 4)
+        (setVar #quest_RedNecklace_ledger 4)
+        (skip)
+    }
+    {
+        and that monday is the same
+        also, every thursday is logged without red pen
+        and this thursday is no exception
+    }
+}

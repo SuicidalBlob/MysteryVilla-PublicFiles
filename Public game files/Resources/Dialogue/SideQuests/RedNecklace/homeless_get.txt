@@ -1,0 +1,39 @@
+(store close)
+(c "Homeless man" show "Homeless man" 0.3 0)
+(skip)
+[#quest_RedNecklace_homeless;=0;=1;true]
+{
+    (setVar #quest_RedNecklace_homeless 1)
+    Shaggy:You mother fucker! So you do have it!
+    Homeless man:Sorry buddy, I can't actually sell you that
+    Shaggy:What the fuck do you mean you can't sell it?
+    Homeless man:I actually promised it to someone else
+    Homeless man:No matter what you say can make me break my seller code
+    Shaggy:What code?! You stole this
+    Homeless man:And now it's in my possession. And soon it'll be in my buyer's
+    Shaggy:Are you not scared she will curse you?
+    Homeless man:Not really. Can't go lower then this
+    Shaggy:Fine! Have it for now, but I'm not backing down
+    Homeless man:Sorry, friend. I gotta do what I gotta do
+}
+{
+    Shaggy:So you will still not sell it?
+    Homeless man:No
+    Shaggy:Damn!
+    Shaggy: * I need to talk with Thorn about this *
+}
+{
+    (setVar #quest_RedNecklace_homeless 3)
+    (setVar #quest_RedNecklace_owner -1)
+    Shaggy:Miss Thorn told me she will curse you to the end of the Earth if you don't return it
+    Homeless man:I'm not selling it
+    Shaggy:She also said you can't come anymore to the academy and steal panties
+    Homeless man:Come on, let's not be rash here, It was just a joke
+    Homeless mna:A joke it was!
+    (setVar #monday #monday+10)
+    (notification +1 necklace)
+    (notification +10 dollars)
+    Homeless man:Here, have it. Also some change I don't need anymore
+    Homeless man:Please don't do this to me, please
+    Homeless man:It was a joke
+}

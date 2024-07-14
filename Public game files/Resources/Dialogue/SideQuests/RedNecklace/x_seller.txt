@@ -1,0 +1,441 @@
+(play music Comedy-Detective)
+(c Anisa show)
+(skip)
+[
+    (#quest_RedNecklace_complaints>1.9)Search her for the necklace
+    Say something
+    Back
+]
+{
+    (c Anisa hide)
+    (dialogue start SideQuests/RedNecklace/x_seller_search)
+}
+{
+    (dialogue start SideQuests/RedNecklace/question_builder 3)
+    [$qpi_0;<2;true]
+    {
+        (skip)
+        [$qpi_2;=0;=1;=2;=3;true]
+        {
+            (//seen question)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Anisa:Only once a week when I need to report what had happened here
+                    Anisa:And if I did good she would punish me
+                    Anisa:But lately she didn't punish me very much
+                    Anisa:I wonder if I angered her or something
+                }
+                {
+                    (//2)
+                    Anisa:That smelly mister from outside? He is here at the mall almost everyday
+                    Anisa:Unfortunately he is not allowed here in the shop
+                    Anisa:and he doesn't seems interested in punishing me
+                    [;2=#quest_RedNecklace_owner|2=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:I do see him around my Mistress' room when waiting for my punishment
+                        Anisa:He usually goes on regular panties stealing adventures
+                    }
+                    {(skip)
+                }
+                {
+                    (//3)
+                    Anisa:I sometime tie myself in front of a mirror with a rotor inside so I can see myself squirm
+                }
+                {
+                    (//4)
+                    Anisa:Mister Shrewd comes here from time to time
+                    Anisa:He doesn't buy much but he does complains a lot
+                    Anisa:He scream at me for every small mistake. I love when he does that
+                    Anisa:I wish I could give him a treat, but Mistress Thorn is not allowing me to be touched by other
+                    [;4=#quest_RedNecklace_owner;4=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:It's most likely because he threatens to take stuff from my Mistress
+                    }
+                    {
+                        Anisa:It's most likely because he threatens to take stuff from my Mistress, even though she always pays in the end
+                    }
+                    {(skip)
+                    [;3=#quest_RedNecklace_owner|3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:I do make mistakes from time to time just for him to scream at me more
+                    }
+                    {(skip)
+                }
+                {
+                    (//5)
+                    Anisa:I see her when I come to work here at the shop or when we intersect at the academy when she needs to deliver an order
+                    [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:Last time I saw her was storming out of academy
+                        Anisa:I think he and Mistress had a fight over the order
+                    }
+                    {(skip)
+                }
+                {
+                    (//6)
+                    Anisa:The special necklace Mistress Thorn usually wears? Yes! Every time she punish me she likes to wear it
+                    Anisa:It is very important to her
+                    [;3=#quest_RedNecklace_owner|3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:I wonder if I did something to it would she punish me harder? <3
+                        (if #quest_RedNecklace_complaints=0;setVar #quest_RedNecklace_complaints 0.5; skip)
+                    }
+                    {(skip)
+                }
+                {
+                    (//7)
+                    Anisa:Only when mister Shrewd comes to collect taxes from the academy or this shop
+                    Anisa:Although whe he is visiting me he doesn't have it
+                    (setVar #quest_RedNecklace_ledger2 1)
+                    (skip)
+                }
+                {
+                    (//8)
+                    Anisa:No. I never seen it
+                }
+                {
+                    (//9)
+                    Anisa:I only heard about its existence, but that's it
+                }
+                {
+                    (//10)
+                    Anisa:Yes! Everytime I go to work I like ot look at them
+                    Anisa:They reminds me how worthless I am. It makes me horney everytime
+                }
+                {
+                    (//else)
+                    Anisa:I don't know. I didn't see anything
+                }
+            }
+            {
+                Anisa:That I can't tell
+            }
+        }
+        {
+            (//stole question)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (//did she stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Anisa:I would never do something intentional to anger my Mistress
+                    Anisa:Well... maybe something small from time to time
+                    Anisa:I do wonder what kind of punishment she would give me if I stole it
+                    [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:Just thinking about it make me hornier. Can't wait to see her next time
+                        (if #quest_RedNecklace_complaints=0;setVar #quest_RedNecklace_complaints 0.5; skip)
+                    }
+                    {(skip)
+                    Anisa:And even if I stole it I have nowhere to hide it
+                    Anisa:I don't won anything, not even the cloths I wear
+                }
+                {
+                    Anisa:I have no need of it so I wouldn't steal it
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;=10;true]
+                {
+                    (//other stole the gem)
+                    (skip)
+                    [$qpi_1;=1;=2;=4;=5;true]
+                    {
+                        Anisa:She doesn't need a reason to punish me so I don't see why she would do that
+                    }
+                    {
+                        Anisa:I don't know. Mister is the type to do it
+                        [;2=#quest_RedNecklace_owner|2=#quest_RedNecklace_red_herring;true]
+                        {
+                            Anisa:I do see him around my Mistress' room when waiting for my punishment
+                            Anisa:He usually goes on regular panties stealing adventures
+                        }
+                        {(skip)
+                    }
+                    {
+                        Anisa:If it's one think I don't like about mister Shrewd is that he is disagreeing with Mistress Thorn
+                        Anisa:I can see him stealing it for collateral
+                        [;4=#quest_RedNecklace_owner;4=#quest_RedNecklace_red_herring;true]
+                        {
+                            Anisa:Especially since he threaten my Mistress with taking her goods
+                        }
+                        {
+                            Anisa:Especially since he threaten my Mistress with taking her goods, even if she always pays in the end
+                            Anisa:For example, this thursday she was waiting him at the door for him
+                            Anisa:So she could pay him already
+                        }
+                        {(skip)
+                    }
+                    {
+                        Anisa:I've seen her argument with Mistress Thorn the other day over an order
+                        Anisa:They usually have small fight but nothing like this
+                        [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                        {
+                            Anisa:Miss Hana is very hot tempered, so I wouldn't be surprised if is did steal it
+                        }
+                        {(skip)
+                    }
+                }
+                {
+                    Anisa:If they did, I can recreate my collection in no time
+                    Anisa:I would enjoy it even
+                }
+                {
+                    Anisa:I'm sorry, but I can't say if they did or not
+                }
+            }
+        }
+        {
+            (//know question)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Anisa:Mistress Thorn is everything to me
+                    Anisa:She is the one that took me in when I had nothing in my life and reborn me in something that I actually like
+                    Anisa:I remember being a fan of her old band so when I heard she opened and academy I knew I had to enrol
+                    Anisa:She has a lot of people following her, but knows how to take care of all of us
+                    Anisa:Although I feel like lately she is ignoring me for some reason
+                }
+                {
+                    (//2)
+                    Anisa:I'm not familiar with the mister outside
+                    Anisa:I wish I were, but my Mistress is not allowing me
+                }
+                {
+                    (//3)
+                    Anisa:Oh, me? I'm not that important for you to be interesting in me
+                    Anisa:I used to be an ordinary girl a few years back
+                    Anisa:I had a well paying job, a hot boyfriend and a roof over my head
+                    Anisa:But when my boyfriend bailed on me and emptied our back accounts I fell into despair
+                    Anisa:Soon after I lost my job and I barley had anything to eat
+                    Anisa:And when I heard that my favorite band opened and academy I knew I needed to enrol
+                    Anisa:I had to sell my house but fortunately Mistress Thorn took me in and took care of me
+                    Anisa:And everything is history
+                }
+                {
+                    (//4)
+                    Anisa:Oh, mister Shrewd! Yes, I know him
+                    Anisa:He usually comes here and yell at me. I feel so seen when he does that
+                    Anisa:I know he comes here just to do that even if he can't touch me
+                    [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:But since my Mistress is ignoring, I'm ok with this too
+                    }
+                    {
+                        Anisa:But since my Mistress is ignoring me a little, I'm happy with this too
+                    }
+                    {(skip)
+                    [;4=#quest_RedNecklace_owner|4=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:But what I don't like about him is him threatening my Mistress
+                    }
+                    {(skip)
+                }
+                {
+                    (//5)
+                    Anisa:I don't know a lot about her
+                    Anisa:She is the friend my Mistress ask for our costumes at the academy
+                    Anisa:Last time I've seen her was at the academy arguing with my Mistress
+                    Anisa:I think it was because the costumes delivered were not up to Mistress' expectations
+                    [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:They usually argue, but this time was very heated
+                        Anisa:I don't like seeing Mistress Thorn this angry at someone other then me
+                    }
+                    {(skip)
+                }
+                {
+                    (//6)
+                    Anisa:It's my Mistress' favorite necklace. I don't know why
+                    Anisa:But I know she had it before creating the band and the academy
+                    Anisa:She likes to wear it when punishing me and my sisters at the academy
+                    Anisa:Sometime I see it glow, but I don't know if I'm seeing things or because she was so beautiful in the candle night
+                }
+                {
+                    (//7)
+                    Anisa:I just know that it's important to mister Shrewd. He uses it to log the taxes he collect
+                    Anisa:I heard he's so meticulous with it that he has the time logged to the minute
+                    Shaggy:* it may have some info on the necklace there *
+                    (if #quest_RedNecklace_ledger<1)
+                    (setVar #quest_RedNecklace_ledger 1)
+                    (skip)
+                }
+                {
+                    (//8)
+                    Anisa:I don't know what that is
+                }
+                {
+                    (//9)
+                    Anisa:I don't know much. I just know miss Hana keeps important things in it
+                }
+                {
+                    (//10)
+                    Anisa:Beautiful, aren't they? I'm very proud of them
+                }
+                {
+                    (//else)
+                    Anisa:I don't know anything about them
+                }
+            }
+            {
+                Anisa:I'm sorry, but I don't know if they know anything about it
+            }
+        }
+        {
+            (//needs question)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=10;true]
+                {
+                    (//1)
+                    Anisa:Of course I need her. Without her I'm nothing
+                    Anisa:No, worse then nothing
+                    [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:But lately I feel like she's ignoring me
+                        Anisa:I don't even know if I should do something good or bad to get her attention
+                    }
+                    {(skip)
+                }
+                {
+                    (//2)
+                    Anisa:I would like to make acquaintance with him. But just that
+                }
+                {
+                    (//3)
+                    Anisa:I don't know if I need myself. I don't know if anyone needs me
+                }
+                {
+                    (//4)
+                    Anisa:I would like if he could be meaner when he comes here
+                }
+                {
+                    (//5)
+                    Anisa:I would like if she was nicer to my Mistress, but that's it
+                }
+                {
+                    (//6)
+                    Anisa:I can't say I need it. But if my Mistress would unleash her anger of loosing it on me I wouldn't complain
+                }
+                {
+                    (//10)
+                    Anisa:I would like my collection to be bigger
+                }
+                {
+                    (//else)
+                    Anisa:I don't need that
+                }
+            }
+            {
+                Anisa:I don't know if they need it
+            }
+        }
+        {
+            Anisa:I do not understand what you're saying
+        }
+    }
+    {
+        (skip)
+        [$qpi_2;=1;=2;=3;true]
+        {
+            (//stole)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (//she stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Anisa:I would not dare to steal anything from my Mistress
+                    Anisa:I own her too much to do something like that
+                    [;3=#quest_RedNecklace_owner;3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Anisa:But that makes me question what type of punishment she would give me if I did that? Ah! <3
+                    }
+                    {(skip)
+                    Anisa:And even if I stole it I have nowhere to hide it
+                    Anisa:I don't won anything, not even the cloths I wear
+                }
+                {
+                    Anisa:I wouldn't want to muddy Mistress name by doing something this foolish
+                }
+            }
+            {Anisa:If you find it, give it to Mistress Thorn as soon as possible. I thank you for that
+        }
+        {
+            (//knows)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (//she knows)
+                Anisa:Sir, I can assure you that I can answer it without lying
+            }
+            {Anisa:Thank you for telling this to me, sir
+        }
+        {
+            (//wants)
+            (skip)
+            [$qpi_1;=3;true]
+            {
+                (//she wants)
+                [$qpi_3;=1;true]
+                {
+                    Anisa:Of course I want her. She's my everything
+                }
+                {
+                    Anisa:The only thing I wants is Mistress Thorn
+                }
+            }
+            {
+                (//they wants)
+                (skip)
+                [$qpi_3;=4;=6;true]
+                {
+                    (//her)
+                    (skip)
+                    [$qpi_1;=1;true]
+                    {
+                        Anisa:I'm happy to hear that
+                        Anisa:This make me happier to hear then getting punished by her
+                    }
+                    {
+                        Anisa:I can assure you, sir, that no one wants a worthless woman like me
+                        Shaggy:I can assure you that they do
+                    }
+                }
+                {
+                    (//the gem)
+                    (skip)
+                    [$qpi_1;=1;true]
+                    {
+                        Anisa:Of course she does. I don't know why, but I just know it's important to her
+                    }
+                    {
+                        Anisa:No matter what they say, they can't have it. It my Mistress' and no one else can have it
+                    }
+                }
+                {Anisa:Thank you for telling me that, sir
+            }
+        }
+        {
+            Anisa:I do not understand what you're saying
+        }
+    }
+    (dialogue start SideQuests/RedNecklace/x_seller)
+    dialogue start SideQuests/RedNecklace/x_seller
+}
+{(skip)

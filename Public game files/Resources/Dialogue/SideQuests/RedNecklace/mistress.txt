@@ -1,0 +1,701 @@
+(play music Comedy-Detective)
+(skip)
+[
+    >(#quest_RedNecklace_homeless=3)got from homeless man
+    >(#quest_RedNecklace_complaints=3)got from sex shop seller
+    >(#quest_RedNecklace_ledger=5)got from tax man
+    >(#quest_RedNecklace_safe=3)got from cosplay shop seller
+    Say something
+    I would like a hint
+    Back
+]
+{
+    (setVar #quest_RedNecklace_homeless 4)
+    Shaggy:I got the necklace from that homeless man
+    Thorn:So it really was him. It's such a shame
+    Thorn:I'll have to find a way to punish him. Maybe some public exposure would do it
+    Shaggy:He may actually like it
+    Thorn:Oh, he won't, I assure you
+    (dialogue start SideQuests/RedNecklace/mistress_reward)
+}
+{
+    (setVar #quest_RedNecklace_complaints 4)
+    Shaggy:I got the necklace from Anisa
+    Thorn:Anisa?! Was she that angry at me?
+    Shaggy:She just missed you that much
+    Thorn:She did, didn't she?
+    Shaggy:Please be kind to her. She just is miserable without you and that no touching rule
+    Thorn:No, no. I see this was just my ego getting in my way
+    Thorn:I'll think of a suitable punishment for her. One she will adore
+    Thorn:so I can make up for lost time
+    Thorn:Thank you for helping me and my girl
+    (dialogue start SideQuests/RedNecklace/mistress_reward)
+}
+{
+    (setVar #quest_RedNecklace_ledger 6)
+    Shaggy:I got the necklace from Shrewd
+    Thorn:I knew it had to be him
+    Shaggy:He did beg not to restrict his access to Anisa
+    Thorn:I'll think about it
+    Thorn:AFTER I punish him accordingly
+    (dialogue start SideQuests/RedNecklace/mistress_reward)
+}
+{
+    (setVar #quest_RedNecklace_safe 4)
+    Shaggy:I got the necklace from Hana
+    Thorn:It's a shame she would do something like this
+    Thorn:But I do have to admit it's partially my fault too
+    Thorn:Also she took care of it, putting it in her precious safe
+    Shaggy:I don't think she realized how important it was for you
+    Thorn:That's true. I'll have to think of a appropriate punishment for her
+    (dialogue start SideQuests/RedNecklace/mistress_reward)
+}
+{
+    (dialogue start SideQuests/RedNecklace/question_builder 1)
+    [$qpi_0;<2;true]
+    {
+        (skip)
+        [$qpi_2;=0;=1;=2;=3;true]
+        {
+            (//seen question)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Thorn:Well, of course I see myself. I'm not a real vampire, darling
+                }
+                {
+                    (//2)
+                    Thorn:He keeps going around here looking at my students here
+                    Thorn:One of my girl did see him the day my necklace disappear, stealing panties like always
+                    Shaggy:Wait, do you let him steal panties?
+                    Thorn:Some of my students enjoy the idea, so we let him do it to them only
+                    Thorn:And every time he is behaving
+                }
+                {
+                    (//3)
+                    Thorn:Anisa usually comes every monday to tell me about her progress
+                    Thorn:The last time she came here I send her to my room for her usual "present"
+                }
+                {
+                    (//4)
+                    Thorn:Every monday he comes to collect taxes and every time I shoo him away
+                    Thorn:But if I take too long to pay them he comes here on thursday threatening with the police
+                    Thorn:And at that point I have nothing else what to do
+                }
+                {
+                    (//5)
+                    Thorn:I usually order from her some outfits that I would need for some of the classes I teach here
+                    Thorn:Last monday she delivered a batch I was looking to
+                    Thorn:But, maybe because I was to exited, I was not happy with the final result
+                    Thorn:We got a little heated and in the end she stormed out of here
+                }
+                {
+                    (//6)
+                    Thorn:Not since last monday. I'm loosing my mind since I can't understand where it went
+                }
+                {
+                    (//7)
+                    Thorn:When Shrewd comes here to collect taxes every monday
+                }
+                {
+                    (//8)
+                    Thorn:I don't know what that is
+                }
+                {
+                    (//9)
+                    Thorn:I know about it's existence, but never seen it
+                }
+                {
+                    (//10)
+                    Thorn:Yes, Anisa is showing them to me every time she gets
+                    Thorn:I'm very proud of how sure in herself and her want she is now
+                }
+                {
+                    (//else)
+                    Thorn:I didn't see them
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    (//6)
+                    (skip)
+                    [$qpi_1;=2;=3;=4;=5;true]
+                    {
+                        Thorn:Hmm... I mean he sees me wearing it almost all the time when he's bagging at the entrance of the academy
+                    }
+                    {
+                        Thorn:I wear it everytime I give her "presents"
+                    }
+                    {
+                        Thorn:I do wear it from time to time when giving him the money
+                    }
+                    {
+                        Thorn:When she comes over I do wear it sometime
+                    }
+                    {
+                        (//else)
+                        Thorn:I don't know if the sow this
+                    }
+                }
+                {
+                    (//else)
+                    Thorn:I don't know if the sow this
+                }
+            }
+        }
+        {
+            (//stole question)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (//did she stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Thorn:I don't need a pretext to punish someone
+                }
+                {
+                    Thorn:I only steal peoples hearts
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    (//other stole the gem)
+                    (skip)
+                    [$qpi_1;=2;=3;=4;=5;true]
+                    {
+                        Thorn:I don't know if he did, but he had the opportunity when he steals my students' panties
+                        Thorn:He usually doesn't go too far in the academy
+                    }
+                    {
+                        Thorn:She isn't a girl who would do something like that to me without a reason
+                        Thorn:She knows it's something important to me
+                    }
+                    {
+                        Thorn:He has no legal reason at least. I always pay my taxes, even if a little late
+                        Thorn:He does threaten me from time to time that he would take some of my belongings as collateral
+                        Thorn:But I fells he's enjoying our little game of cat and mouse
+                    }
+                    {
+                        Thorn:She isn't type to do something like this
+                        Thorn:She is proud of her work and takes joy in something challenging
+                        Thorn:We did have a small fight that day, but that's it
+                    }
+                }
+                {
+                    Thorn:I'm not very familiar with it so I can't say
+                }
+            }
+        }
+        {
+            (//know question)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Thorn:Well... What can I say about myself?
+                    Thorn:I'm a small girl from Oakhaven, Massachusetts where I get part of my heritage
+                    Thorn:Sometime in my teen years I got with my 2 friends and created a eco-goth band
+                    Thorn:We all have similar tastes so this choice was a no brainer
+                    Thorn:When we got tired of all the tours, we choose to plant somewhere
+                    Thorn:With the money we got from our past, we opened this academy
+                    Thorn:Since I wanted the most to open it, I've became the head of it
+                    Thorn:And the rest is history
+                }
+                {
+                    (//2)
+                    Thorn:It's a funny guy. He sometime visit the academy to beg at the entrance or look at the students
+                    Thorn:I even offered him a post him, but he refused. Said he wanted to do it by himself
+                    Thorn:And I respect that
+                    Thorn:He sometime cat call my students, but only to the one he knows enjoy it and is always respectful
+                    Thorn:He also "breaks in" the academy to steal panties
+                    Thorn:But he doesn't know I intentionally let some windows open
+                    Shaggy:So you are you ok with him stealing panties?
+                    Thorn:Yes. Some of my students are into this and he always make sure to steal only from them
+                }
+                {
+                    (//3)
+                    Thorn:She is one of the first and the best of my students
+                    Thorn:She actually graduated for quite some time, but she wanted to be near me at all cost
+                    Thorn:When she first came here, she was in a really bad place
+                    Thorn:So I took her in and made everything in my power to make her be comfortable in her skin
+                    Thorn:But somewhere along the way, she became dependent on me for her to be happy
+                    Thorn:While I'm happy she's is not in that place as before, I feel like she uses me a crutch
+                    Thorn:This is why I send her to our sex shop to work there separately from me
+                    Thorn:She wasn't happy, but I promised her a present every time she visit
+                    Thorn:But unfortunately, as luck had it, I couldn't gave it to her the last few weeks
+                }
+                {
+                    (//4)
+                    Thorn:He is a sly man who is all about money
+                    Thorn:And not like in a cute way, that way miss Hana is
+                    Thorn:I feel like if stealing money was legal he would do it all the time
+                    Thorn:For for now, the only legal way is by collecting taxes
+                    Thorn:And he is enjoying every second of it
+                    Thorn:Everytime he comes here we had a fight over every penny
+                }
+                {
+                    (//5)
+                    Thorn:She is a cute girl. I love her work
+                    Thorn:I have the feeling she didn't have a lot of confidence in herself when she started
+                    Thorn:When we first met, she was very apologetic and timid
+                    Thorn:My status of a rock star didn't help
+                    Thorn:But now we are close friends who appreciate eachother's works
+                    Thorn:Sure, we don't always see eye to eye, but we are always ok in the end
+                }
+                {
+                    (//6)
+                    Thorn:I can't say a lot since it's personal
+                    Thorn:It is a very important heirloom from one of my ancestors
+                    Thorn:It represents our linage and every time I wear it I feel a surge of confidence
+                    Thorn:Like my ancestors are watching me from whenever they are
+                }
+                {
+                    (//7)
+                    Thorn:I don't know much. I just know that I'm always logged twice in that book
+                    Thorn:Once monday when I refuse to pay my taxes and once thursday when I am forced to do so
+                }
+                {
+                    (//8)
+                    Thorn:I don't know, you may have to talk with Shrewd about it
+                }
+                {
+                    (//9)
+                    Thorn:All I know is that it's the special place where Hana puts her important belongings, beside her money
+                }
+                {
+                    (//10)
+                    Thorn:It's Anisa's favorite collection. She look so proud everytime she comes over
+                    Thorn:Sometimes I use it in my "present" I gave her
+                    Thorn:Lately she can't stop telling me about it
+                    Thorn:Like she wants me to use it more
+                }
+                {
+                    (//else)
+                    Thorn:I don't know anything about them
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    (//other knows about the gem)
+                    (skip)
+                    [$qpi_1;=2;=3;=4;=5;true]
+                    {
+                        Thorn:I know he saw it when he was begging for money to me
+                        Thorn:He couldn't take his eyes off it
+                        Shaggy:Are you sure it was the necklace he was looking at?
+                        Thorn:What do you mean?
+                        Shaggy:Nevermind
+                        Thorn:he may also know where I usually put it since he was seen around my room one time
+                    }
+                    {
+                        Thorn:I don't think she knows the whole story, but she knows it's important to me
+                        Thorn:I wear it everytime we have some alone time together
+                        Thorn:I think at this point even she fells its influence it has
+                    }
+                    {
+                        Thorn:I don't think he knows a lot
+                        Thorn:I believe he thinks it's either important to me or very expensive
+                        Thorn:since he sometime threatens me with taking instead of the money for the taxes
+                    }
+                    {
+                        Thorn:She is curious about it since she asked me about it a few time
+                        Thorn:But she's more interested in its aesthetics then anything else
+                        Thorn:She may not realize its importance, but knows it's dear to me
+                    }
+                }
+                {
+                    Thorn:Sorry, darling, but that I don't know
+                }
+            }
+        }
+        {
+            (//needs question)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;true]
+                {
+                    (//1)
+                    Thorn:I mean... I guess I need myself?
+                }
+                {
+                    (//2)
+                    Thorn:He is sympathetic, but I don't need him
+                }
+                {
+                    (//3)
+                    Thorn:She had become a bit part of my life so of course I need her
+                    Thorn:I always worry about her
+                }
+                {
+                    (//4)
+                    Thorn:I could do without him or his taxes
+                }
+                {
+                    (//5)
+                    Thorn:Even if I could find another clothing maker, her talent is unmatched
+                    Thorn:And in time she even became a close friend of mine
+                }
+                {
+                    (//6)
+                    Thorn:Of course I need it! It's very close to me
+                    Thorn:It represent my bloodline and I wear it with pride
+                }
+                {
+                    (//else)
+                    Thorn:I don't need that
+                }
+            }
+            {
+                Thorn:I don't know if they need them
+            }
+        }
+        {
+            Thorn:I do not understand what you're saying
+        }
+    }
+    {
+        (skip)
+        [$qpi_2;=1;=2;=3;true]
+        {
+            (//stole)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (//she stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Thorn:Why would I steal something that's mine?
+                }
+                {
+                    Thorn:It's cute you think I need to steal anything
+                }
+            }
+            {
+                (//other stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    (skip)
+                    [$qpi_1;=2;=3;=4;=5;true]
+                    {
+                        Thorn:Him? But he's behaving so well. Are you sure about it?
+                        [
+                            (#quest_RedNecklace_homeless>0)He has it for sale
+                            No, nevermind
+                        ]
+                        {
+                            (if #quest_RedNecklace_homeless<2)
+                            (setVar #quest_RedNecklace_homeless 2)
+                            (skip)
+                            ...
+                            Thorn:Then go and buy it back. If the price is a problem I can give you money
+                            Shaggy:That's not the problem. He already has a buyer for it
+                            Thorn:Then tell him I'll curse him this with the most potent curse I know
+                            Shaggy:Can you do that?
+                            Thorn:Of course not, but he doesn't know
+                            Shaggy:Either way, he doesn't care about that either
+                            Thorn:Hmm... I didn't want to do this since it will interfere with my students
+                            Thorn:But tell him he can't steal panties anymore
+                            Shaggy:That would do it. I'm on my way
+                        }
+                        {
+                            Thorn:Then come back here when you have some proof
+                        }
+                    }
+                    {
+                        Thorn:Anisa?! But she wouldn't
+                        [
+                            (#quest_RedNecklace_complaints>0)She is not happy with your "presents"
+                            Maybe you are right
+                        ]
+                        {
+                            (if #quest_RedNecklace_complaints<2)
+                            (setVar #quest_RedNecklace_complaints 2)
+                            (skip)
+                            ...
+                            Thorn:She isn't? That's sad to hear. I just wanted to give her more autonomy
+                            Thorn:You say this is why she would steal form me?
+                            Shaggy:Do you know where she could have hidden it?
+                            Thorn:Hard to say. She doesn't own anything. She doesn't allow anyone to buy anything for her
+                            Thorn:Even food, she feels like she needs to earn it
+                            Shaggy:It is possible to check her body to see if she has it on her?
+                            Thorn:I'm not ok with others touching my property
+                            Thorn:But I did ignore her for some time. Take it as a gift from me for being a good girl
+                            Shaggy:Got it. Thanks
+                        }
+                        {
+                            Thorn:Then come back here when you have some proof
+                        }
+                    }
+                    {
+                        Thorn:I could see that, but are you sure?
+                        [
+                            (#quest_RedNecklace_ledger>0.99)I think he used it for taxes, I can check his ledger
+                            No, nevermind
+                        ]
+                        {
+                            Thorn:Good idea, but he is practically glued to that book
+                            Thorn:Is there a way to get him away from him?
+                            [
+                                (#quest_RedNecklace_ledger2>0)He may leave it behind if he can touch Anisa
+                                I don't have any idea yet
+                            ]
+                            {
+                                (if #quest_RedNecklace_ledger<2)
+                                (setVar #quest_RedNecklace_ledger 2)
+                                (skip)
+                                ...
+                                Thorn:Why would he do that?
+                                Shaggy:He was edging himself by just insulting her at the shop
+                                Shaggy:If he could do stuff to her he may just run out of his office
+                                Shaggy:and let his ledger behind
+                                Thorn:... I don't like anyone else touching my property like that
+                                Thorn:But I did pay no attention to her for quite some time
+                                Thorn:He can do it as a gift to Anisa since she is such a good girl
+                                Thorn:But no penetration. That is my limit
+                                Shaggy:Got it!
+                            }
+                            {
+                                Thorn:Then when you find a way, come to me for help
+                            }
+                        }
+                        {
+                            Thorn:Then come back here when you have some proof
+                        }
+                    }
+                    {
+                        Thorn:Hana? She wouldn't be that perry, would she?
+                        [
+                            (#quest_RedNecklace_safe>0.999)I think she has it in her safe
+                            No, nevermind
+                        ]
+                        {
+                            Thorn:That may be. But how are you planning to find out?
+                            Thorn:While at her shop she is always watching it
+                            Thorn:And I don't even know the code
+                            Shaggy:I'll just say you need her and she will come to you
+                            Shaggy:About the code, I'll find a way
+                            Thorn:Ok, sounds good. tell her I need her for that special order she wanted to do
+                            Thorn:She knows what I'm talking about
+                            (if #quest_RedNecklace_safe<2)
+                            (setVar #quest_RedNecklace_safe 2)
+                            (skip)
+                        }
+                        {
+                            Thorn:Then come back here when you have some proof
+                        }
+                    }
+                    {Thorn:I don't know who that is
+                }
+                {
+                    Thorn:I don't know if that is my business
+                }
+            }
+        }
+        {
+            (//knows)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (//she knows)
+                Thorn:Darling, if you want to know something, just ask
+            }
+            {
+                (//they knows)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    (skip)
+                    [$qpi_1;=2;=3;=4;=5;true]
+                    {
+                        (//TO DO)
+                    }
+                }
+                {
+                    Thorn:I don't want to disappoint you, but I don't care
+                }
+            }
+        }
+        {
+            (//wants)
+            (skip)
+            [$qpi_1;=1;true]
+            {
+                (//she wants)
+                [$qpi_3;=6;true]
+                {
+                    Thorn:Well, yes. This I gave you this job for that reason
+                }
+                {
+                    Thorn:The only thing I want is my necklace
+                }
+            }
+            {
+                (//they wants)
+                (skip)
+                [$qpi_3;=1;=6;true]
+                {
+                    (//her)
+                    (skip)
+                    [$qpi_1;=2;=1;true]
+                    {
+                        Thorn:What do you mean by that?
+                        Shaggy:She is very happy with your treatment of her
+                        Thorn:I see, I definitely see why
+                        Thorn:You think she would steal my necklace because of this?
+                        [
+                            Yes, she wants your attention
+                            No, she found other outlet in her shop complaints
+                            I don't know
+                        ]
+                        {
+                            (//TO DO)
+                        }
+                        {
+                            (//TO DO)
+                        }
+                        {
+                            Thorn:Ok, then go and find out if she did
+                        }
+                    }
+                    {
+                        Thorn:I am a catch, but I'm not opened for more students
+                    }
+                }
+                {
+                    (//the gem)
+                    (skip_)
+                    [$qpi_1;=2;=3;=4;=5;true]
+                    {
+                        Thorn:Do you know why he want my gem?
+                        [
+                            He wants to seel it
+                            No
+                        ]
+                        {
+                            (//TO DO)
+                        }
+                        {Thorn:Then go and find why
+                    }
+                    {
+                        Thorn:Do you know why she want my gem?
+                        [
+                            She wants you to punish her harder
+                            No
+                        ]
+                        {
+                            (//TO DO)
+                        }
+                        {Thorn:Then go and find why
+                    }
+                    {
+                        Thorn:Do you know why he want my gem?
+                        [
+                            He want is for taxes you didn't pay
+                            No
+                        ]
+                        {
+                            (//TO DO)
+                        }
+                        {Thorn:Then go and find why
+                    }
+                    {
+                        Thorn:Do you know why she want my gem?
+                        [
+                            She want to make you angry
+                            No
+                        ]
+                        {
+                            (//TO DO)
+                        }
+                        {Thorn:Then go and find why
+                    }
+                }
+                {Thorn:I don't think I can help them with that
+            }
+        }
+        {
+            Thorn:I do not understand what you're saying
+        }
+    }
+}
+{
+    this will spoil who 2 of the suspects are innocent. do you wish to proceed anyway?
+    [
+        Yes
+        No
+    ]
+    {
+        (setVar $auxSet 0)
+        (skip)
+        [#quest_RedNecklace_owner;!2 & #quest_RedNecklace_red_herring!2;true]
+        {
+            [$auxSet;=0;true]
+            {
+                (setVar $auxSet 1)
+                (setStr innocent1 the homeless man)
+                (skip)
+            }
+            {(setStr innocent2 the homeless man;skip)
+        }
+        {(skip)
+        (skip)
+        [#quest_RedNecklace_owner;!3 & #quest_RedNecklace_red_herring!3;true]
+        {
+            [$auxSet;=0;true]
+            {
+                (setVar $auxSet 1)
+                (setStr innocent1 Anisa)
+                (skip)
+            }
+            {(setStr innocent2 Anisa;skip)
+        }
+        {(skip)
+        (skip)
+        [#quest_RedNecklace_owner;!4 & #quest_RedNecklace_red_herring!4;true]
+        {
+            [$auxSet;=0;true]
+            {
+                (setVar $auxSet 1)
+                (setStr innocent1 Shrewd)
+                (skip)
+            }
+            {(setStr innocent2 Shrewd;skip)
+        }
+        {(skip)
+        (skip)
+        [#quest_RedNecklace_owner;!5 & #quest_RedNecklace_red_herring!5;true]
+        {
+            [$auxSet;=0;true]
+            {
+                (setVar $auxSet 1)
+                (setStr innocent1 Hana)
+                (skip)
+            }
+            {(setStr innocent2 Hana;skip)
+        }
+        {(skip)
+        the 2 innocent people are [innocent1] and [innocent2]
+    }
+    {(skip)
+}
+{(dialogue start Rooms/Map/Academy/Thron)
+(dialogue start SideQuests/RedNecklace/mistress)
+dialogue start SideQuests/RedNecklace/test

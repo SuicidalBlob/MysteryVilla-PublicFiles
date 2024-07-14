@@ -1,0 +1,27 @@
+[isinroom[Shrewd];=1;true]
+{
+    Shrewd:Ah, you have a sharp eye!
+    Shaggy:I... I have?
+    Shrewd:Yes, I see you looking at my bust
+    he hurry ups towards the bust and picks it up
+    Shrewd:It was a gift from a very important man
+    Shrewd:It is made from elephant tusk and sculpted by an renowned artist
+    Shaggy:Oh, wow! Who's bust is it?
+    Shrewd:A very important person, I can assure you that ... I think
+    Shaggy:I see ... Can I take a closer look?
+    Shrewd:By all means. Art is supposed to be looked at
+    looking closer at it, it is clearly made out of wood
+    painted whit an off white color
+    the only impressive part is that it is carved from only one block of wood
+    so it seems like nothing can be hidden inside
+    Shaggy:* so the necklace it's not here *
+    Shaggy:Ehm... Indeed very impressive
+    Shrewd:Indeed it is
+    Shrewd:But no matter what you say to me, I will not sell it to you
+    Shaggy:oh, man... what a shame
+}
+{
+    you shake a bust intensely
+    nothing can be heard from inside
+    the necklace is not here
+}

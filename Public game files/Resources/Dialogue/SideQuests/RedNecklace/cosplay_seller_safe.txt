@@ -1,0 +1,65 @@
+[isinroom[Hana];=1;true]
+{
+    Hana:Oy! What are you doing there?
+    Shaggy:Sorry. I didn't know you had a safe hidden there
+    Hana:And what if I have? What are you doing to do about it?
+    Shaggy:Nothing! I swear!
+    Hana:That's a good answer. Now go away
+    (if #quest_RedNecklace_safe<1)
+    (setVar #quest_RedNecklace_safe 1)
+    (skip)
+}
+{
+    you try to open the safe
+    [#quest_RedNecklace_safe2;<1;true]
+    {
+        but you don't know the combination
+        Shaggy:Damn! I need to find the code
+        Shaggy:Maybe someone why see it a lot did see the code at some point
+    }
+    {
+        [
+            >(hasitem[Shaggy,Hana's panties]>0)already got the panties
+            >(5=#quest_RedNecklace_owner)
+            >(true)else
+        ]
+        {(moveTo Map/Mall/CosplayShop safe_no_panties do_not_load_props; skip)
+        {(moveTo Map/Mall/CosplayShop safe_red_necklace do_not_load_props; skip)
+        {(moveTo Map/Mall/CosplayShop safe do_not_load_props; skip)
+        the door of the safe is opened
+        you see a stack of money
+        (if hasitem[Shaggy,Hana's panties]=0)
+        a pair of panties
+        [;5=#quest_RedNecklace_owner;true]
+        {
+            and the necklace
+            Shaggy:Aha, here it is
+            (setVar #quest_RedNecklace_safe 3)
+            (setVar #quest_RedNecklace_owner -1)
+            (notification +1 necklace)
+            (moveTo Map/Mall/CosplayShop safe do_not_load_props)
+            Shaggy:Now I just need to give it to miss thorn
+        }
+        {
+            and that's all
+            Shaggy:It seems she doesn't have the necklace
+        }
+        [hasitem[Shaggy,Hana's panties];>0;true]
+        {(skip)
+        {
+            do you want to steal the pair of panties?
+            [
+                Yes, please
+                No, I'm not a degenerate
+            ]
+            {
+                (moveTo Map/Mall/CosplayShop safe_no_panties do_not_load_props)
+                (buy Shaggy Hana's panties)
+                :you sick fuck :)
+            }
+            {
+                your loss
+            }
+        }
+    }
+}

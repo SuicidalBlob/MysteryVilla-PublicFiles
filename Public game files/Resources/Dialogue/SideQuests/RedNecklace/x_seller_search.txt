@@ -1,0 +1,212 @@
+[
+    >(#quest_RedNecklace_owner<0) found the owner
+    >($Assanisa_is_searched>13) searched everywhere
+    >(true)
+]
+{
+    you already found the necklace. do you want to continue anyway?
+    [
+        Yes
+        No
+    ]
+    {(setVar $aux 1; skip)
+    {(setVar $aux 0; skip)
+}
+{
+    you already searched her everywhere. do you want to continue anyway?
+    [
+        Yes
+        No
+    ]
+    {(setVar $aux 1; skip)
+    {(setVar $aux 0; skip)
+}
+{(setVar $aux 1; skip)
+[$aux;=0;true]
+{(skip)
+{
+    [$anisa_is_naked;=0;true]
+    {
+        Shaggy:Your mistress gave me permission to search you for her necklace
+        Shaggy:Take it as a gift from her
+        Anisa:Yes, sir. I receive her message. Please go right ahead
+    }
+    {(skip)
+    [$anisa_is_naked;=0;true]
+    {(HSlide start Anisa/Search; skip)
+    {(HSlide play Undress_front_undress_instant; skip)
+    [
+        ($anisa_is_naked=0)Make her strip
+        ($anisa_is_naked=1)Search mouth
+        ($anisa_is_naked=1)Search pussy
+        ($anisa_is_naked=1)Search ass
+        That's all
+    ]
+    {
+        (setVar $Assanisa_is_searched 0)
+        (setVar $anisa_is_naked 1)
+        (HSlide play Undress_front_undress)
+        with simple motions, but fast and sexy at the same time she removes all her clothing
+        like an animal she didn't have water in days in front of a bowl
+        she can barely contains herself to not trow herself at you
+        fortunately for the artist, she also took off her piercings
+        Shaggy:Ok, now to check your back
+        (HSlide play Undress_back)
+        sensually, she rotate around
+        on her back you can see her master's tattoo and some old whip marks
+        Shaggy:You really love your master, don't you
+        Anisa:But of course I do
+        . . . . .
+        but even so, she doesn't have the necklace on her
+        Shaggy:Maybe you hide it somewhere inside
+        Anisa:Yes. Please, sir! Search all the holes you want
+        (dialogue start SideQuests/RedNecklace/x_seller_search)
+    }
+    {
+        (setVar $aux $Assanisa_is_searched/2)
+        (setVar $aux int[$aux])
+        (if $aux%2=0)
+        (setVar $Assanisa_is_searched $Assanisa_is_searched+2)
+        (skip)
+        //set search
+        (HSlide play Mouth_simple)
+        without a single hesitation, she position herself at your feet
+        (HSlide play Mouth_inserted)
+        once she is presenting her mouth to you, you shove your fingers in her
+        (HSlide play Mouth_full)
+        you push even further, almost inserting your whole fist in her
+        Anisa:Hmm! <3
+        (HSlide play Mouth_full_move)
+        you move your fingers, searching every part of her throat
+        Anisa:Ghhg! Gmph! Hmg! <3 <3
+        (HSlide play Mouth_full_move_spit)
+        while she doesn't have a gag reflex, she does look like she will pass either from excitement or asphyxiation
+        Anisa:Ahg ... mhhg ... mhhg
+        (HSlide play Mouth_simple)
+        Shaggy:Damn. It's not here
+        Anisa:Gahh! ha! If you want, you can search again, sir
+        (dialogue start SideQuests/RedNecklace/x_seller_search)
+    }
+    {
+        (setVar $aux $Assanisa_is_searched/4)
+        (setVar $aux int[$aux])
+        (if $aux%2=0)
+        (setVar $Assanisa_is_searched $Assanisa_is_searched+4)
+        (skip)
+        //set search
+        (HSlide play Pussy_simple)
+        she eagerly position herself in front of you
+        (HSlide play Pussy_finger)
+        you use your fingers to push her pussy lips
+        like a magic gesture, her pussy is starting oozing out
+        Anisa:Ah!
+        (HSlide play Pussy_inserted)
+        you slider your finger inside her pussy almost pushing your entire hand inside
+        Shaggy:What is this?
+        (HSlide play Pussy_inserted_xray)
+        while wiggling your fingers you feel like there is something else here
+        Shaggy:Just a little dipper!
+        (HSlide play Pussy_full_xray)
+        saying that, you push your entire hand inside
+        Anisa:Ah! Sir! Ah!
+        (HSlide play Pussy_full_instant)
+        you finally catch the object in your fingers
+        (HSlide play Pussy_stuck)
+        you try to pull your closed fist outside, but her pussy is gripping your hand like her life is depending on it
+        Anisa:Ah! Sir! Don't! Please
+        Shaggy:Just give up already. I know you're hiding something
+        (HSlide play Pussy_out)
+        in that instance you pop your hands out of the meat vice
+        Anisa:Ahhhh!...
+        Shaggy:Aha! I got it! ... why is it vibrating?
+        Anisa:Ah... That's ... ah ... my rotor, sir ... ah
+        Anisa:Since Mistress Thorn isn't giving me much attention lately
+        Anisa:I put some toys inside me while working here
+        Shaggy:... so no necklace
+        Anisa:I'm afraid it would be too small to fit any necklace in it
+        Shaggy:Then I'll just put it back
+        (HSlide play Pussy_put_back)
+        Anisa:Please, sir! AAH! ... Ah! Thank you!
+        Anisa:But don't be discouraged, you can check other places, too
+        (dialogue start SideQuests/RedNecklace/x_seller_search)
+    }
+    {
+        (setVar $aux $Assanisa_is_searched/8)
+        (setVar $aux int[$aux])
+        (if $aux%2=0)
+        (setVar $Assanisa_is_searched $Assanisa_is_searched+8)
+        (skip)
+        //set search
+        (HSlide play Ass_simple)
+        she turn around, showing you her round ass
+        her butthole is already moist, like she was anticipating it for a long time
+        (HSlide play Ass_fingers)
+        you inserts the tip of your fingers inside her warm hole
+        Anisa:Ah! yes!
+        (HSlide play Ass_inserted)
+        not finding anything, you push further, your hand enveloped by her insides
+        moving your hand, you still don't find anything. you push further
+        (HSlide play Ass_deep)
+        Anisa:Ah, sir. Yes! you can go dipper
+        you are already soo deep that a small bulge can be seen from outside
+        (HSlide play Ass_deep_xray)
+        Shaggy:Wait... is something here
+        Anisa:I... I can't take it anymore!
+        with no self control, she pushes her entire weight into you arm
+        (HSlide play Ass_full_xray)
+        now your arm is trapped inside her up to the elbow
+        the bulge is now bigger then ever before
+        but even so, you are sure you feel something in your hand
+        (HSlide play Ass_full_movement_xray)
+        before you can grab it, she starts moving her hips
+        Shaggy:Stop that, damn it!
+        Anisa:Sorry, just a little more, sir!
+        (HSlide play Ass_full_movement)
+        Shaggy:Ok, you had your fun
+        Shaggy:Now stop it or you won't get it anymore
+        (HSlide play Ass_full_instant)
+        Anisa:I'm... I'm sorry, sir!
+        (HSlide play Ass_try_to_get_out)
+        once she stops, you try to get out
+        but her asshole is still hungry
+        you muster all your might to get your hand out of her
+        [#quest_RedNecklace_owner;=3;true]
+        {
+            (HSlide play Ass_get_out_capsule)
+            with a pop, your hand and the object are finally free
+            the object appears to be a black latex egg, but more like a capsule
+            Anisa:Ah!... Sir!... Ah!....
+            while she recovers her breath, you see a split right down the middle
+            pulling it apart reveals the necklace you were searching for
+            Anisa:Sir! I can explain...
+            Shaggy:So you did steal it
+            Anisa:I didn't want to take it forever! Just enough so Mistress Thorn would go back to the way we were
+            Anisa:I miss her so much
+            Shaggy:Don't worry, I'll talk with her
+            Anisa:Thank you sir so much!
+            (setVar #quest_RedNecklace_complaints 3)
+            (setVar #quest_RedNecklace_owner -1)
+            (notification +1 necklace)
+            (skip)
+        }
+        {
+            (HSlide play Ass_get_out_egg)
+            with a pop, your hand and the object are finally free
+            the object vibrate in your hand
+            looking closer at it, it appear like an large colorful egg
+            Anisa:Sir! That is a toy I use while selling at this shop
+            Shaggy:Hmm... it doesn't seems like you can hold anything in it
+            Shaggy:It is large, but there's no opening
+            Shaggy:So no necklace here
+            Anisa:I'm afraid not
+            (HSlide play Ass_put_back)
+            Shaggy:Then I'll just put it back
+            Anisa:Ah! Thank ... you ... sir!
+            (dialogue start SideQuests/RedNecklace/x_seller_search)
+        }
+    }
+    {
+        (HSlide stop)
+        (dialogue start SideQuests/RedNecklace/x_seller)
+    }
+}

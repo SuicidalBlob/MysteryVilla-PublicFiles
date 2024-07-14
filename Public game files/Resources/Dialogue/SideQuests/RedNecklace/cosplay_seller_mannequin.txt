@@ -1,0 +1,16 @@
+[isinroom[Hana];=1;true]
+{
+    Hana:I see you are into elementary school girls, sir?
+    Shaggy:Elementary? I thought this is the high school uniform
+    Hana:In this anime, the main character is in elementary
+    Hana:If you are interested in high school girls, the selection is over here
+    Shaggy:... better not. The longer the conversation gets, the more I feel like I'll get arrested
+    (dialogue auto 0.2)
+    Hana:If you're interested in lolis the section is...
+    Shaggy:NOPE! I'm out
+}
+{
+    while Hana is not here you look at the mannequin
+    it looks normal
+    no necklace here
+}

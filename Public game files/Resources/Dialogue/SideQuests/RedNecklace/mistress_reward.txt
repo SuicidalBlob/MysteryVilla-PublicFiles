@@ -1,0 +1,56 @@
+(c Shaggy show Shaggy 0.6 0)
+(c Shaggy lookback)
+(c Thorn emote face neutral)
+Thorn:Anyway, before we go forward with your reword. My necklace
+[character[Thorn,love];>2;true]
+{
+    Thorn:I'll let you make the honorifics
+    (c Shaggy move 0.48)
+    (c Shaggy lookback)
+    (c Thorn emote eyes close)
+    Shaggy:Don't mind if I do
+}
+{(c Thorn emote eyes close; skip)
+(outfit Thorn wearMisc Bat necklace)
+...
+(c Shaggy move 0.6)
+(c Shaggy lookback)
+(c Thorn emote eyes neutral)
+Thorn:How do I look
+[
+    Devilishly beautiful
+    You look good with anything around your neck
+    Most powerful
+]
+{
+    (addCar Thorn love 3)
+    (notification + @+ec:$arg_t0 love)
+    (c Thorn emote face happy eyes wink)
+    Thorn:I am, aren't I?
+}
+{
+    (addCar Thorn slave 2)
+    (notification + @+ec:$arg_t0 submissive)
+    (addCar Thorn love 1)
+    (notification + @+ec:$arg_t0 love)
+    (c Thorn emote face angry mouth happy)
+    Thorn:My, my. Aren't you bold?
+}
+{
+    (addCar Thorn slave -2)
+    (notification + @+ec:0-$arg_t0 dominant)
+    (addCar Thorn love 1)
+    (notification + @+ec:$arg_t0 love)
+    (c Thorn emote face angry mouth happy)
+    Thorn:Good
+}
+(setVar #quest_RedNecklace_Status -1)
+(c Thorn emote face neutral)
+Thorn:As for reword, all I can give you right now are those money
+(setVar #money #money+200)
+(notification +200 dollars)
+(setVar #Anisa_search 1)
+Thorn:In the meantime, I give you permission to play with Anisa
+Thorn:This should be a nice punishment for her since I neglected her so much
+Thorn:But maybe come latter and I'll find a more suitable reword for you
+:(warning: the next reword is not implemented yet)

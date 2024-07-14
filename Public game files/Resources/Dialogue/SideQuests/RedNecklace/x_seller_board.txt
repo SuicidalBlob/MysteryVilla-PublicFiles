@@ -1,0 +1,29 @@
+[#quest_RedNecklace_complaints;<0.5;true]
+{
+    (setVar #quest_RedNecklace_complaints 1)
+    Anisa:Do you like my collection? I like collecting complaints about my performance
+    Anisa:Since Mistress Thorn is not punishing me the way she did in the past
+    Anisa:this is the best way to satisfy myself
+}
+{(skip)
+[;3=#quest_RedNecklace_red_herring;true]
+{
+    (moveTo Map/Mall/SexShop board_full do_not_load_props)
+    (dialogue character hideAll)
+    on the board you see a number of papers with complaints about her behavior
+    most of them are from Shrewd
+    Anisa:Mister Shrewd is a loyal costumer of this shop
+    Anisa:Even though he doesn't buy a lot of things
+}
+{
+    (moveTo Map/Mall/SexShop board_simple do_not_load_props)
+    (dialogue character hideAll)
+    on the board you see a number of papers with complaints about her behavior
+    but just looking at it you can tell it's not as many as she says
+}
+Shaggy:Is that... an used condom?
+Anisa:Good eye, sir!
+Anisa:One drunk costumer threw it at me and landed in my mouth
+Anisa:I liked his laughter so much that I kept the condom
+Shaggy:That's disgusting
+Anisa:Thank you, sir

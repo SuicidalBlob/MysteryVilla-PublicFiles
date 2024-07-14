@@ -1,0 +1,47 @@
+(moveTo Map/Mall)
+(skip)
+[
+    Mistress Thorn
+    the homeless man
+    Anisa (sex shop clerk)
+    Shrewd (tax man)
+    Hana (cosplay shop clerk)
+    Exit
+    >(#quest_RedNecklace_owner=0)Set values
+    Reset values
+]
+{
+    (movecharacterto Thorn Academy)
+    (moveTo Academy)
+    (dialogue start SideQuests/RedNecklace/mistress)
+}
+{(dialogue start SideQuests/RedNecklace/homeless)
+{
+    (movecharacterto Anisa Map/Mall/SexShop)
+    (moveTo Map/Mall/SexShop)
+    (dialogue start SideQuests/RedNecklace/x_seller)
+}
+{
+    (movecharacterto Shrewd TexOffice)
+    (moveTo TexOffice)
+    (dialogue start SideQuests/RedNecklace/tax_man)
+}
+{
+    (movecharacterto Hana Map/Mall/CosplayShop)
+    (moveTo Map/Mall/CosplayShop)
+    (//dialogue start SideQuests/RedNecklace/cosplay_seller)
+}
+{(skip)
+{
+    (setVar #quest_RedNecklace_owner random[2,5.999])
+    (setVar #quest_RedNecklace_owner int[#quest_RedNecklace_owner])
+    (setVar #quest_RedNecklace_red_herring random[1,3.999])
+    (setVar #quest_RedNecklace_red_herring #quest_RedNecklace_red_herring+#quest_RedNecklace_owner)
+    (setVar #quest_RedNecklace_red_herring int[#quest_RedNecklace_red_herring])
+    (setVar #quest_RedNecklace_red_herring #quest_RedNecklace_red_herring-2)
+    (setVar #quest_RedNecklace_red_herring #quest_RedNecklace_red_herring%4)
+    (setVar #quest_RedNecklace_red_herring #quest_RedNecklace_red_herring+2)
+    (dialogue auto 0.1)
+    :thief [ec:#quest_RedNecklace_owner] and red herring [ec:#quest_RedNecklace_red_herring]
+    (dialogue start SideQuests/RedNecklace/test)
+}

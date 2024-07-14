@@ -1,0 +1,37 @@
+[#quest_RedNecklace_permit;<1.5;=1.5;true]
+{
+    (setVar #quest_RedNecklace_permit 1.5)
+    Shrewd:If he can pay he can have it
+    Shaggy:Cool, can I pay it for it?
+    Shrewd:If you have the 100$, sure
+    [
+        (#money>100)Pay 100$
+        I don't have enough money yet
+    ]
+    {
+        (setVar #money #money-100)
+        (setVar #quest_RedNecklace_permit 2)
+        Shrewd:Thank you. Here is the permit
+    }
+    {
+        Shrewd:Then don't waist my time
+    }
+}
+{
+    Shrewd:Do you have the 100$ for it?
+    [
+        (#money>100)Pay 100$
+        I don't have enough money yet
+    ]
+    {
+        (setVar #money #money-100)
+        (setVar #quest_RedNecklace_permit 2)
+        Shrewd:Thank you. Here is the permit
+    }
+    {
+        Shrewd:Then don't waist my time
+    }
+}
+{
+    Shrewd:I believe it's in your possession at this moment
+}

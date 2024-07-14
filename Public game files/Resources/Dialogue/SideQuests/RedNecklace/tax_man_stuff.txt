@@ -1,0 +1,22 @@
+[isinroom[Shrewd];=1;true]
+{
+    Shrewd:Those are the stuff I confiscated from the people who couldn't pay their taxes
+    Shaggy:Can I look through them?
+    Shrewd:They will go on auction soon anyways
+    Shrewd:So I don't see any problem
+    Shrewd:Maybe you will even buy something
+    Shrewd:But I will keep an eye on you so you won't steal anything
+    you search through the pile of objects
+    no matter where you look, the necklace is nowhere to be found
+    Shaggy:* of course he wouldn't let me search though this if he put the necklace here *
+    Shaggy:* so it's not here *
+    without realizing, your hand touched a spherical object
+    it is white with sharp, small corners
+    (play sfx "general/A NEW HAND TOUCHES THE BEACON")
+    <b>A NEW HAND TOUCHES THE BEACON</>
+    Shaggy:FUCK! NOPE! I'M OUT!
+}
+{
+    you look through the pile of object on the floor
+    no necklace to be found 
+}

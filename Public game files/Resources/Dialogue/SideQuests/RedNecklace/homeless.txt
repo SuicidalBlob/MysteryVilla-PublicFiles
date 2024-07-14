@@ -1,0 +1,388 @@
+(play music Comedy-Detective)
+(skip)
+[
+    >(#quest_RedNecklace_permit=2)give him the permit
+    Say something
+    Back
+]
+{
+    (setVar #quest_RedNecklace_permit 3)
+    (setVar #homeless_shop 1)
+    Shaggy:Here's the permit you wanted
+    Homeless man:Holy shit, man! Thank you so much
+    Homeless man:For making me this solid, you get a special discount on all on my products
+    (dialogue start SideQuests/RedNecklace/homeless)
+    dialogue start SideQuests/RedNecklace/homeless
+}
+{
+    (dialogue start SideQuests/RedNecklace/question_builder 2)
+    [$qpi_0;<2;true]
+    {
+        (skip)
+        [$qpi_2;=0;=1;=2;=3;true]
+        {
+            (//seen question)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=8;true]
+                {
+                    (//1)
+                    Homeless man:Seen 'er around her academy. Scarry as shit. Sexy in a way 'tho
+                }
+                {
+                    (//2)
+                    Homeless man:Of course I've seen me. I'm a catch
+                }
+                {
+                    (//3)
+                    Homeless man:That freaky kinky girly? Love 'er. Kinda boring 'tho
+                }
+                {
+                    (//4)
+                    Homeless man:Hate 'im. I ask him every time when I see him for a selling permit but he wouldn't give it to me
+                    [#quest_RedNecklace_permit;=0;true]
+                    {
+                        (setVar #quest_RedNecklace_permit 1)
+                        Shaggy:Why does he not give it one?
+                        Homeless man:Need to pay som' money first. Does it look like I have 'em?
+                        Shaggy:I may be able to help you with that
+                        Homeless man:That would be amazing. I will be in your debt
+                        Shaggy:I don't think you can afford to be in even more debt
+                    }
+                    {
+                        Shaggy:Good think for you that am I'm working on it
+                    }
+                }
+                {
+                    (//5)
+                    Homeless man:Seen her. Her rack that is! Ha! Heavy and bouncy at the same time!
+                }
+                {
+                    (//6)
+                    Homeless man:That expensive red thingy the m'am has?
+                    Homeless man:The shiny thing that she puts on her panty drawer every night?
+                    Homeless man: . . .
+                    Homeless man:Never seen it
+                }
+                {
+                    (//8)
+                    Homeless man:Well... no? Wasn't that your job to get it to me?
+                }
+                {
+                    (//else)
+                    Homeless man:I haven't seen nothing about this
+                }
+            }
+            {
+                Homeless man:I can not tell what anyone've seen but myself
+            }
+        }
+        {
+            (//stole question)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (//did he stole)
+                (skip)
+                [$qpi_3;=6;=8;true]
+                {
+                    Homeless man:I've stole nothing! Why? Are you interesting in buying it?
+                    Shaggy:So you do have it?
+                    Homeless man:Maybe... maybe not... You have to buy it first
+                    Shaggy:God damn it, man!
+                    Shaggy:So, can I buy it?
+                    [#quest_RedNecklace_permit;=0;true]
+                    {
+                        (setVar #quest_RedNecklace_permit 1)
+                        Homeless man:No. I need a permit for selling it from that tax fella
+                        Homeless man:But he doesn't want to give me one
+                        Shaggy:Why does he not give it to you?
+                        Homeless man:Need to pay som' money first. Does it look like I have 'em?
+                        Shaggy:I may be able to help you with that
+                        Homeless man:That would be amazing. I will be in your debt
+                        Shaggy:I don't think you can afford to be in even more debt
+                    }
+                    {
+                        Shaggy:Once I have the permit, just open the shop
+                    }
+                }
+                {
+                    Homeless man:I couldn't steal it even it I wanted. That tax man needs to sign it and I can't write for shit anymore
+                }
+                {
+                    Homeless man:Nah. Haven't steal it. You must buy it from someone else
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    (//other stole the gem)
+                    (skip)
+                    [$qpi_1;=1;=3;=4;=5;true]
+                    {
+                        Homeless man:Why would she steal her own stuff?
+                    }
+                    {
+                        Homeless man:Maybe? I feel like her master wronged her somehow, but don't know how
+                    }
+                    {
+                        Homeless man:I heard the m'am at the academy didn't payed her taxes on time. I wouldn't put past him stealing it for collateral
+                    }
+                    {
+                        Homeless man:Don't know. Did hear her complain about some order to her school or something
+                    }
+                }
+                {
+                    Homeless man:Can't tell... I have not idea
+                }
+            }
+        }
+        {
+            (//know)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Homeless man:Her? Not much. Sexy 'n' scary. Works and, I think sleep, at her bitch academy
+                    Homeless man:I sometimes visit the academy for the free show, if you know what I mean
+                    Homeless man:. . .
+                    Homeless man:Completely irrelevant, but do you want to buy some used panties?
+                }
+                {
+                    (//2)
+                    Homeless man:About myself? To be honest... There isn't much to tell
+                    Homeless man:My life trajectory was looking ok
+                    Homeless man:My dream was to open a shop for myself. But the big guys out sole me
+                    Homeless man:and I couldn't keep up
+                    Homeless man:And when my savings ran dry I ended up here
+                    Shaggy:Oh, man! I'm so sorry! If you need, I live in that big mansion over there
+                    Shaggy:You can come there to live until you can live on yourself
+                    Homeless man:You're sweet, but I'm good with the stuff I have
+                    Homeless man:But you know what you can help me with?
+                    Homeless man:Maybe talk with that tax man to sign that sell permit so I can finally start to make some money
+                    Shaggy:Sure, dude! You got this!
+                }
+                {
+                    (//3)
+                    Homeless man:Don't know lots. I know she's owned by the chick at the academy
+                    Homeless man:And lately makes mistakes just to make costumers angry at her
+                    Homeless man:I'm sure she's getting off by doing that
+                }
+                {
+                    (//4)
+                    Homeless man:Fuck'im! He is smug that he has to take money form people just for existing
+                    Homeless man:He is not above taking personal things as collateral if you can't pay your taxes
+                    Homeless man:He even want money so I can start selling stuff
+                    [#quest_RedNecklace_permit;=0;true]
+                    {
+                        (setVar #quest_RedNecklace_permit 1)
+                        Shaggy:What do you mean?
+                        Homeless man:He want me to pay him to sigh this damn permit. And without it I can't sell shit
+                        Shaggy:Maybe I can look into to see if I can do something
+                        Homeless man:Thank you, man!
+                    }
+                    {
+                        Shaggy:Good think for you that am I'm working on it
+                    }
+                }
+                {
+                    (//5)
+                    Homeless man:The chick with giant boob? Yeah, I know her
+                    Homeless man:She likes creating costumes and stuff, very proud of 'er work
+                }
+                {
+                    (//6)
+                    Homeless man:I think it's important for that m'am at the academy. That's all I know
+                }
+                {
+                    (//7)
+                    Homeless man:You're talking about that big book that man has with him everytime?
+                    Homeless man:I just know that he write the money he takes it there to the minute
+                    Shaggy:* it may have some info on the necklace there *
+                    (if #quest_RedNecklace_ledger<1)
+                    (setVar #quest_RedNecklace_ledger 1)
+                    (skip)
+                }
+                {
+                    (//8)
+                    Homeless man:That pice of shit paper is the only thing that stops me from selling stuff here
+                }
+                {
+                    (//9)
+                    Homeless man:I don't know anything about it
+                }
+                {
+                    (//10)
+                    Homeless man:Every time that girl made a mistake I can hear the shouting from here
+                    Homeless man:I think she is doing it on purpose or somethin'
+                    Homeless man:Now that I think about it, the most frequent voice there is that tax man, Shrewd
+                }
+                {
+                    (//else)
+                    Homeless man:Know nothing 'bout it
+                }
+            }
+            {
+                Homeless man: I only know what I know. I can't know what other knows
+            }
+        }
+        {
+            (//needs)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Homeless man:Can't say I need 'er
+                }
+                {
+                    (//2)
+                    Homeless man:The fuck does that mean?
+                }
+                {
+                    (//3)
+                    Homeless man:I need 'er to give me a cleaning down there, if you know what I mean. Ha!
+                }
+                {
+                    (//4)
+                    Homeless man:I need that selling permit of his
+                    [#quest_RedNecklace_permit;=0;true]
+                    {
+                        (setVar #quest_RedNecklace_permit 1)
+                        Shaggy:What do you mean?
+                        Homeless man:He want me to pay him to sigh this damn permit. And without it I can't sell shit
+                        Shaggy:Maybe I can look into to see if I can do something
+                        Homeless man:Thank you, man!
+                    }
+                    {
+                        Shaggy:Good think for you that am I'm working on it
+                    }
+                }
+                {
+                    (//5)
+                    Homeless man:I need 'er. 'Er tits in my face, that is. Ha!
+                }
+                {
+                    (//6)
+                    Homeless man:I mean, I would need the money it's worth
+                }
+                {
+                    (//7)
+                    Homeless man:If I got my hands on that I'll burn it just to spite that man
+                }
+                {
+                    (//8)
+                    Homeless man:Yes, I need it so I can sell my stuff
+                }
+                {
+                    (//9)
+                    Homeless man:Can't say I need it
+                }
+                {
+                    (//10)
+                    Homeless man:No, why would I?
+                }
+                {
+                    (//else)
+                    Homeless man:Know nothing 'bout it
+                }
+            }
+            {
+                Homeless man: I can't tell if they need any of those or not
+            }
+        }
+        {
+            Homeless man:I do not understand what you're saying
+        }
+    }
+    {
+        (skip)
+        [$qpi_2;=1;=2;=3;true]
+        {
+            (//stole)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (//he stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Homeless man:Are you accusing me of stealin' that expensive red thing?
+                    Homeless man:I would never steal it. I would not also sell it if I did
+                    Shaggy:So... can you sell it to me?
+                    Homeless man:Only if I actually stole it. And that I didn't do
+                }
+                {
+                    Homeless man:Haven't stole shit
+                }
+            }
+            {Homeless man:Ok? Why tell me?
+        }
+        {
+            (//knows)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (//he knows)
+                Homeless man:Maybe? Why not just ask? I have nothing to hide...
+                Homeless man:Maybe a little, but nothing big
+            }
+            {Homeless man:Ok? Why tell me?
+        }
+        {
+            (//wants)
+            (skip)
+            [$qpi_1;=2;true]
+            {
+                (//he wants)
+                (skip)
+                [$qpi_3;<6;=6;true]
+                {
+                    Homeless man:I want none at the moment. I'm not one for romance
+                }
+                {
+                    Homeless man:I would love the money I would get from it
+                    Homeless man:But it's not like it'll fall from the skys
+                }
+                {
+                    Homeless man:Yeah, I want it. Why tell me that?
+                }
+                {
+                    Homeless man:No... I don't want that
+                }
+            }
+            {
+                (//they want)
+                (skip)
+                [$qpi_3;=2;<6;=6;true]
+                {
+                    Homeless man:I'm flattered, but I'm not looking for a partner yet
+                }
+                {
+                    Homeless man:I'm no Cupidon
+                }
+                {
+                    Homeless man:Well... everyone wants an expensive pice of jewelry in their life
+                }
+                {Homeless man:I don't think I have any of this
+            }
+        }
+        {
+            Homeless man:I do not understand what you're saying
+        }
+    }
+    (dialogue start SideQuests/RedNecklace/homeless)
+    dialogue start SideQuests/RedNecklace/homeless
+}
+{
+    (dialogue start Rooms/Map/Mall/HomelessMan)
+    dialogue start Rooms/Map/Mall/HomelessMan
+}

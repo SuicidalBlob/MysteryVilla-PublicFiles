@@ -1,0 +1,387 @@
+(play music Comedy-Detective)
+(skip)
+[
+    (isinroom[Hana]=1)Say something
+    Back
+]
+{
+    (dialogue start SideQuests/RedNecklace/question_builder 5)
+    [$qpi_0;<2;true]
+    {
+        (skip)
+        [$qpi_2;=0;=1;=2;=3;true]
+        {
+            (//seen question)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Hana:The goth miss at the academy? I see her regularly when I deliver the outfit order
+                    Hana:We did have a fight the list time I did. She was not happy with the color of the leather I choose
+                    Hana:Said it ruined the esthetic. I said I didn't see it. We argued and went angry in the end
+                    [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:Sometime I would like to retaliate somehow
+                    }
+                    {(skip)
+                }
+                {
+                    (//2)
+                    Hana:The smelly mister? Sometimes I see him around here begging for money, but that's it
+                    [;2=#quest_RedNecklace_owner;2=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:Sometimes I see him around miss Thorn's academy
+                    }
+                    {
+                        Hana:Sometimes I see him around miss Thorn's academy
+                        Hana:But not that day. That day he was at mall. I'm sure of it
+                    }
+                    {(skip)
+                }
+                {
+                    (//3)
+                    Hana:The miss at the sex shop? I see her sometimes when I got deliver the order at the academy
+                    [;3=#quest_RedNecklace_owner|3=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:I fell bad tho, since her mistress is so busy lately
+                    }
+                    {(skip)
+                }
+                {
+                    (//4)
+                    Hana:The mister that keeps taking my money? I don't like him
+                    Hana:He comes here. Demands money and goes away without thanking me
+                    [;4=#quest_RedNecklace_owner|4=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:Not even miss Thorn don't like him
+                        Hana:And he doesn't like her since she always postpone the payment
+                    }
+                    {(skip)
+                }
+                {
+                    (//5)
+                    Hana:Of course I can see myself, silly
+                }
+                {
+                    (//6)
+                    Hana:Almost always I see miss Thorn she is wearing that necklace
+                    [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:It looks important to her
+                    }
+                    {(skip)
+                }
+                {
+                    (//7)
+                    Hana:I hate that book mister Shrewd is always carrying. It reminds me I will lose money
+                }
+                {
+                    (//8)
+                    Hana:No. I never seen it
+                }
+                {
+                    (//9)
+                    Hana:Why are you interested in it? Do you want to steal from it?
+                }
+                {
+                    (//10)
+                    Hana:No, I've never seen them? Is the miss at the sex shop bad at her job?
+                    Shaggy:I don't think so. She is enjoying it
+                }
+                {
+                    (//else)
+                    Hana:I didn't see anything
+                }
+            }
+            {
+                Hana:I don't know if the sow anything
+            }
+        }
+        {
+            (//stole question)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (//did she stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Hana:After the last fight with miss Thorn, I can't say it didn't cross my mind to spite her
+                    Hana:But I would never steal anything
+                    [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:Well.. I did think about it just to spite her
+                    }
+                    {(skip)
+                }
+                {
+                    Hana:I don't need to steal anything
+                }
+            }
+            {
+                (skip)
+                [$qpi_3;=6;=9;true]
+                {
+                    (//other stole the gem)
+                    (skip)
+                    [$qpi_1;=1;=2;=3;=4;true]
+                    {
+                        Hana:I don't think she needs to steal something it already hers
+                    }
+                    {
+                        Hana:I could see him do it, but I want to believe he is a good mister
+                        [;2=#quest_RedNecklace_owner;2=#quest_RedNecklace_red_herring;true]
+                        {
+                            Hana:He sometimes breaks in the academy, but I heard he only stole panties
+                        }
+                        {
+                            Hana:He sometimes breaks in the academy, but I heard he only stole panties
+                            Hana:But I don't remember seeing him that day
+                        }
+                        {(skip)
+                    }
+                    {
+                        Hana:I think she is very dedicated to miss Thorn
+                        Hana:I don't see why she would do that
+                    }
+                    {
+                        Hana:The way he is always about money, I believe he would steal it
+                        [;4=#quest_RedNecklace_owner|4=#quest_RedNecklace_red_herring;true]
+                        {
+                            Hana:I heard from miss Thorn he sometime threaten with taking her belongings as collateral
+                        }
+                        {(skip)
+                    }
+                }
+                {
+                    Hana:I may look small, but my shotgun in the back would disagree
+                    Hana:No one can steal from my safe
+                }
+                {
+                    Hana:I'm not ok with speculating if they did or not
+                }
+            }
+        }
+        {
+            (//know question)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=7;=8;=9;=10;true]
+                {
+                    (//1)
+                    Hana:Miss Thorn is very cool! She's so collected and smart
+                    Hana:The is very peculiar about her clothing orders
+                    Hana:We sometime get into small discussions about the end product, but usually we solve them
+                    Hana:Except for the last time when we argued a little more then usual
+                    Hana:I was too angry about it. I hope I didn't do anything I will regret later
+                }
+                {
+                    (//2)
+                    Hana:I don't know anything about him
+                }
+                {
+                    (//3)
+                    Hana:Not much. She is dedicated body and soul to miss Thorn, especially body
+                }
+                {
+                    (//4)
+                    Hana:I really, really, really do not like mister Shrewd
+                    Hana:He's only interested in collecting money and he won't separate from that book of him
+                }
+                {
+                    (//5)
+                    Hana:There's not much to know about me
+                    Hana:I was one of these nerdy kids growing up
+                    Hana:When it was time to choose a career path, I did not know what to choose
+                    Hana:So I choose nothing. For some years I stayed locked in my room
+                    Hana:The only joy I had was consuming anime and sawing cosplay outfits
+                    Hana:And without realizing I had a business for selling the clothing I created
+                }
+                {
+                    (//6)
+                    Hana:I don't know how or why she has or wear it, but I know is very important to miss Thorn
+                    [;5=#quest_RedNecklace_owner|5=#quest_RedNecklace_red_herring;true]
+                    {
+                        Hana:I wonder what how angry will she get if she loose it
+                    }
+                    {(skip)
+                }
+                {
+                    (//7)
+                    Hana:I hate that book
+                    Hana:Mister Shrewd note the taxes collected to the minute
+                    Shaggy:* it may have some info on the necklace there *
+                    (if #quest_RedNecklace_ledger<1)
+                    (setVar #quest_RedNecklace_ledger 1)
+                    (skip)
+                }
+                {
+                    (//8)
+                    Hana:I got one from mister Shrewd. I can't give you mine
+                }
+                {
+                    (//9)
+                    Hana:It's the place I put my important stuff. Don't you dare steal from it tho
+                    Hana:I am armed and dangerous
+                }
+                {
+                    (//10)
+                    Hana:I don't know anything about it
+                }
+                {
+                    (//else)
+                    Hana:I don't know anything about them
+                }
+            }
+            {
+                Hana:Can't say anything in their name
+            }
+        }
+        {
+            (//needs question)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (skip)
+                [$qpi_3;=1;=2;=3;=4;=5;=6;=9;true]
+                {
+                    (//1)
+                    Hana:While she is a big client for my shop, I can survive even without her
+                }
+                {
+                    (//2)
+                    Hana:No. I don't need him
+                }
+                {
+                    (//3)
+                    Hana:No. I don't need her
+                }
+                {
+                    (//4)
+                    Hana:I could do without him. Screw his taxes
+                }
+                {
+                    (//5)
+                    Hana:I mean... yes?
+                }
+                {
+                    (//6)
+                    Hana:I don't need it. I just hope she is not happy she lost it
+                }
+                {
+                    (//9)
+                    Hana:Of course I need it. Where else can I put my important stuff?
+                }
+                {
+                    (//else)
+                    Hana:I don't need that
+                }
+            }
+            {
+                Hana:I don't know what they need
+            }
+        }
+        {
+            Hana:I do not understand what you're saying
+        }
+    }
+    {
+        (skip)
+        [$qpi_2;=1;=2;=3;true]
+        {
+            (//stole)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (//she stole)
+                (skip)
+                [$qpi_3;=6;true]
+                {
+                    Hana:I don't have a need to steal that necklace
+                    Hana:But I would like to see her freak out without it
+                }
+                {
+                    Hana:If I wanted something I would buy iy
+                }
+            }
+            {Hana:I don't think I'm the person you should tell this to
+        }
+        {
+            (//knows)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (//she knows)
+                Hana:If you ask me you may actually know if it's true or not
+            }
+            {Hana:Ok, cool. Wasn't really following the drama
+        }
+        {
+            (//wants)
+            (skip)
+            [$qpi_1;=5;true]
+            {
+                (//she wants)
+                [$qpi_3;=9;true]
+                {
+                    Hana:I mean I already have it. But yes, I want it, I guess?
+                }
+                {
+                    Hana:I don't really want anything at the moment
+                }
+            }
+            {
+                (//they wants)
+                (skip)
+                [$qpi_3;=5;=6;true]
+                {
+                    (//her)
+                    (skip)
+                    [$qpi_1;=1;true]
+                    {
+                        Hana:Really? What does she need me for
+                        [
+                            (#quest_RedNecklace_safe>1.999)She want to do the special order you wanted
+                            Eh... I don't know
+                        ]
+                        {
+                            Hana:The... SPECIAL... <b>ORDER</>?!?!
+                            Hana:Yes! Finally! I'm going right now!
+                            (movecharacterto Hana Academy)
+                            (skip)
+                        }
+                        {
+                            Hana:Then don't bother me if you don't know
+                        }
+                    }
+                    {
+                        Hana:I don't think I have the time for them at the moment
+                    }
+                }
+                {
+                    (//the gem)
+                    (skip)
+                    [$qpi_1;=1;true]
+                    {
+                        Hana:I figured. But I still don't know why
+                    }
+                    {
+                        Hana:I mean, except for its high value, it's also pretty
+                    }
+                }
+                {Hana:I don't think I can help them with that
+            }
+        }
+        {
+            Hana:I do not understand what you're saying
+        }
+    }
+    (dialogue start SideQuests/RedNecklace/cosplay_seller)
+    dialogue start SideQuests/RedNecklace/cosplay_seller
+}
+{(skip)

@@ -1,0 +1,90 @@
+[
+    Did
+    Do
+    I think
+]
+{(setVar $qpi_0 0; setStr qps_0 Did; setStr qps_final ?; skip)
+{(setVar $qpi_0 1; setStr qps_0 Do; setStr qps_final ?; skip)
+{(setVar $qpi_0 2; setStr qps_0 I think; setStr qps_final .; skip)
+[
+    You
+    ($arg_t0!1)Mistress Thorn
+    ($arg_t0!2)the homeless man
+    ($arg_t0!3)Anisa (sex shop clerk)
+    ($arg_t0!4)Shrewd (tax man)
+    ($arg_t0!5)Hana (cosplay shop clerk)
+]
+{(setVar $qpi_1 $arg_t0; setStr qps_1 you; skip)
+{(setVar $qpi_1 1; setStr qps_1 Mistress Thorn; skip)
+{(setVar $qpi_1 2; setStr qps_1 the homeless man; skip)
+{(setVar $qpi_1 3; setStr qps_1 Anisa; skip)
+{(setVar $qpi_1 4; setStr qps_1 Shrewd; skip)
+{(setVar $qpi_1 5; setStr qps_1 Hana; skip)
+[$qpi_0;=0;=1;true]
+{
+    [
+        see
+        steal
+    ]
+    {(setVar $qpi_2 0; setStr qps_2 see; skip)
+    {(setVar $qpi_2 1; setStr qps_2 steal; skip)
+}
+{
+    [
+        know anything about
+        need
+    ]
+    {(setVar $qpi_2 2; setStr qps_2 know anything about; skip)
+    {(setVar $qpi_2 3; setStr qps_2 need; skip)
+}
+{
+    [
+        stole
+        (false)know something about
+        wants
+    ]
+    {(setVar $qpi_2 1; setStr qps_2 stole; skip)
+    {(setVar $qpi_2 2; setStr qps_2 know something about; skip)
+    {(setVar $qpi_2 3; setStr qps_2 wants; skip)
+}
+[
+    ($qpi_2!1)this person
+    this object
+]
+{
+    [
+        You
+        Mistress Thorn
+        the homeless man
+        Anisa (sex shop clerk)
+        Shrewd (tax man)
+        Hana (cosplay shop clerk)
+    ]
+    {(setVar $qpi_3 $arg_t0; setStr qps_3 you;; skip)
+    {(setVar $qpi_3 1; setStr qps_3 Mistress Thorn; skip)
+    {(setVar $qpi_3 2; setStr qps_3 the homeless man; skip)
+    {(setVar $qpi_3 3; setStr qps_3 Anisa; skip)
+    {(setVar $qpi_3 4; setStr qps_3 Shrewd; skip)
+    {(setVar $qpi_3 5; setStr qps_3 Hana; skip)
+}
+{
+    [
+        the necklace
+        (#quest_RedNecklace_ledger>0)the ledger
+        (#quest_RedNecklace_permit>0)the sell permit
+        (#quest_RedNecklace_safe>0)the cosplay shop safe
+        (#quest_RedNecklace_complaints>0.5)the sex shop complaints
+    ]
+    {(setVar $qpi_3 6; setStr qps_3 the necklace; skip)
+    {(setVar $qpi_3 7; setStr qps_3 the ledger; skip)
+    {(setVar $qpi_3 8; setStr qps_3 the sell permit; skip)
+    {(setVar $qpi_3 9; setStr qps_3 the cosplay safe; skip)
+    {(setVar $qpi_3 10; setStr qps_3 the x shop complaints; skip)
+}
+:do you want to say: [qps_0] [qps_1] [qps_2] [qps_3][qps_final]
+[
+    Yes
+    No. Try again
+]
+{(skip)
+{(dialogue start SideQuests/RedNecklace/question_builder continue)

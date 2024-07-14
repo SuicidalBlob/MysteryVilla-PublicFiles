@@ -45,7 +45,39 @@
 	 |  |   back.png
 	 |  |   pref.prefab
 	 |  > Map
+	 |  |  > Academy
+	 |  |  |  > Hall1
+	 |  |  |  |   back.png
+	 |  |  |  > PrincipalOffice
+	 |  |  |  |   back.png
+	 |  |  |  |   pref.prefab
+	 |  |  |   back.png
+	 |  |  |   pref.prefab
+	 |  |  > Bank
+	 |  |  |  > TaxOffice
+	 |  |  |  |   back.png
+	 |  |  |  |   ledge_guilty.png
+	 |  |  |  |   ledge_not_guilty.png
+	 |  |  |  |   pref.prefab
+	 |  |  |  |   props.prefab
 	 |  |  > Mall
+	 |  |  |  > CosplayShop
+	 |  |  |  |   back.png
+	 |  |  |  |   pref.prefab
+	 |  |  |  |   props.prefab
+	 |  |  |  |   safe.png
+	 |  |  |  |   safe_no_panties.png
+	 |  |  |  |   safe_red_necklace.png
+	 |  |  |  > SexShop
+	 |  |  |  |   back.png
+	 |  |  |  |   board_full.png
+	 |  |  |  |   board_simple.png
+	 |  |  |  |   pref.prefab
+	 |  |  |  |   props.prefab
+	 |  |  |  > ToTheRight
+	 |  |  |  |   back.png
+	 |  |  |  |   pref.prefab
+	 |  |  |  |   props.prefab
 	 |  |  |   back.png
 	 |  |  |   pref.prefab
 	 |  |  |   props.prefab
@@ -122,6 +154,8 @@
 	 |  |   2.jpg
 	 |  |   2.png
 # > Characters
+	 |  > Anisa
+	 |  |   prefab.prefab
 	 |  > Daphne
 	 |  |  > Body
 	 |  |  |   0.png
@@ -215,6 +249,28 @@
 	 |  |   misc.txt
 	 |  |   prefab.prefab
 	 |  |   prefab_.prefab
+	 |  > Hana
+	 |  |   prefab.prefab
+	 |  > Homeless man
+	 |  |  > Body
+	 |  |  |   0.png
+	 |  |  |   1.png
+	 |  |  |   2.png
+	 |  |  > Clothing
+	 |  |  |   base.png
+	 |  |  > Eyes
+	 |  |  |   neutral.png
+	 |  |  > Misc
+	 |  |  |   beard.png
+	 |  |  |   beard_dirty.png
+	 |  |  |   stink.png
+	 |  |  > Mouth
+	 |  |  |   neutral.png
+	 |  |   clothing.txt
+	 |  |   eyebraws 0.png
+	 |  |   eyebraws 1.png
+	 |  |   misc.txt
+	 |  |   prefab.prefab
 	 |  > MysteryMachine
 	 |  |  > Body
 	 |  |  |   0.png
@@ -253,6 +309,7 @@
 	 |  |  |   1.png
 	 |  |  > Clothing
 	 |  |  |   cowboy_hat.png
+	 |  |  |   hana_panties.png
 	 |  |  |   leather_jacket.png
 	 |  |  |   mannequin_body.png
 	 |  |  |   pants1.png
@@ -321,6 +378,20 @@
 	 |  |   misc.txt
 	 |  |   prefab.prefab
 	 |  |   prefab_.prefab
+	 |  > Shrewd
+	 |  |  > Body
+	 |  |  |   0.png
+	 |  |  > Clothing
+	 |  |  |   base.png
+	 |  |  > Eyes
+	 |  |  |   neutral.png
+	 |  |  > Hair
+	 |  |  |   0_front.png
+	 |  |  > Mouth
+	 |  |  |   neutral.png
+	 |  |   clothing.txt
+	 |  |   eyebrows.png
+	 |  |   prefab.prefab
 	 |  > Stranger
 	 |  |  > Body
 	 |  |  |   0.png
@@ -330,6 +401,33 @@
 	 |  |   clothing.txt
 	 |  |   misc.txt
 	 |  |   penis.png
+	 |  |   prefab.prefab
+	 |  > Thorn
+	 |  |  > Body
+	 |  |  |   0.png
+	 |  |  > Clothing
+	 |  |  |   base.png
+	 |  |  > Eyes
+	 |  |  |   angry.png
+	 |  |  |   bored.png
+	 |  |  |   close.png
+	 |  |  |   happy.png
+	 |  |  |   neutral.png
+	 |  |  |   wink.png
+	 |  |  > Hair
+	 |  |  |   0_back.png
+	 |  |  |   0_front.png
+	 |  |  > Misc
+	 |  |  |   necklace.png
+	 |  |  > Mouth
+	 |  |  |   angry.png
+	 |  |  |   happy.png
+	 |  |  |   neutral.png
+	 |  |  |   sad.png
+	 |  |   clothing.txt
+	 |  |   eyebrws 0.png
+	 |  |   eyebrws 1.png
+	 |  |   misc.txt
 	 |  |   prefab.prefab
 	 |  > Uncle Albert
 	 |  |  > Eyebrows
@@ -359,11 +457,11 @@
 	 |  |  > Body
 	 |  |  |   -1.png
 	 |  |  |   -2.png
+	 |  |  |   -3.png
+	 |  |  |   -4.png
 	 |  |  |   0.png
 	 |  |  |   1.png
 	 |  |  |   2.png
-	 |  |  |   3.png
-	 |  |  |   4.png
 	 |  |  |   fetus_dog.png
 	 |  |  |   fetus_human.png
 	 |  |  |   pregnant0.png
@@ -384,11 +482,14 @@
 	 |  |  |   body_suit.png
 	 |  |  |   body_suit_bone.png
 	 |  |  |   body_suit_sexy.png
+	 |  |  |   box_free_samples.png
+	 |  |  |   box_mellons.png
 	 |  |  |   bra.png
 	 |  |  |   bra0.png
 	 |  |  |   bra1.png
 	 |  |  |   bra2.png
 	 |  |  |   bra3.png
+	 |  |  |   bra4.png
 	 |  |  |   bunny.png
 	 |  |  |   bunny_ear.png
 	 |  |  |   bunny_rev.png
@@ -399,19 +500,27 @@
 	 |  |  |   cape_close.png
 	 |  |  |   cape_open.png
 	 |  |  |   cape_sholders.png
+	 |  |  |   cardboard_armour_bottom.png
+	 |  |  |   cardboard_armour_top.png
+	 |  |  |   cardboard_sword_armour.png
+	 |  |  |   cardboard_sword_armour_butt.png
 	 |  |  |   dress0.png
 	 |  |  |   fish_net.png
 	 |  |  |   fish_net_crop_top.png
+	 |  |  |   formal_skirt.png
 	 |  |  |   ghost.png
 	 |  |  |   halo.png
 	 |  |  |   hands.png
+	 |  |  |   hearth_top.png
 	 |  |  |   horn.png
 	 |  |  |   jeans.png
+	 |  |  |   leopard_dress.png
 	 |  |  |   maid_corset.png
 	 |  |  |   maid_dress.png
 	 |  |  |   maid_shirt.png
 	 |  |  |   maid_sholder.png
 	 |  |  |   mannequin_body.png
+	 |  |  |   mannequin_butt.png
 	 |  |  |   mannequin_head.png
 	 |  |  |   mid_aprone.png
 	 |  |  |   m_jeans.png
@@ -426,6 +535,8 @@
 	 |  |  |   panteas2_butt.png
 	 |  |  |   panteas3.png
 	 |  |  |   panteas3_butt.png
+	 |  |  |   panteas4.png
+	 |  |  |   panteas4_butt.png
 	 |  |  |   pants.png
 	 |  |  |   pants0_20_1630_1.png
 	 |  |  |   pants1_3_2006_1.png
@@ -436,6 +547,14 @@
 	 |  |  |   pantyho.png
 	 |  |  |   pantyho_lat.png
 	 |  |  |   pantyho_tear.png
+	 |  |  |   paper_bag.png
+	 |  |  |   paper_bag2.png
+	 |  |  |   paper_bag3.png
+	 |  |  |   paper_bag4.png
+	 |  |  |   reusable_bag.png
+	 |  |  |   ringed_bra.png
+	 |  |  |   ringed_panties.png
+	 |  |  |   ringed_panties_butt.png
 	 |  |  |   r_jeans.png
 	 |  |  |   r_s_jeans.png
 	 |  |  |   santa_dress.png
@@ -444,6 +563,7 @@
 	 |  |  |   shirt.png
 	 |  |  |   shirt_2.png
 	 |  |  |   shirt_3.png
+	 |  |  |   shirt_fancy.png
 	 |  |  |   slave_dress.png
 	 |  |  |   slave_mid.png
 	 |  |  |   slave_top.png
@@ -460,6 +580,9 @@
 	 |  |  |   waitress_bottom_slutty.png
 	 |  |  |   waitress_up.png
 	 |  |  |   waitress_up_slutty.png
+	 |  |  |   zipped_bra.png
+	 |  |  |   zipped_panties.png
+	 |  |  |   zipped_panties_butt.png
 	 |  |  > Eyes
 	 |  |  |   ahegao.png
 	 |  |  |   angry.png
@@ -488,6 +611,10 @@
 	 |  |  |   anal_beads_x.png
 	 |  |  |   anal_hook.png
 	 |  |  |   anal_hook_x.png
+	 |  |  |   bag_of_back.png
+	 |  |  |   bag_of_front.png
+	 |  |  |   bag_of_in.png
+	 |  |  |   bag_of_out.png
 	 |  |  |   blindfold.png
 	 |  |  |   blush.png
 	 |  |  |   body_bruis.png
@@ -544,6 +671,7 @@
 	 |  |  |   n_piercing.png
 	 |  |  |   n_piercing2.png
 	 |  |  |   open_sign.png
+	 |  |  |   pearls.png
 	 |  |  |   prong_collar.png
 	 |  |  |   pubes0.png
 	 |  |  |   pubes1.png
@@ -656,6 +784,11 @@
 	 |  > .vscode
 	 |  |   settings.json
 	 |  > Caracters
+	 |  |  > Anisa
+	 |  |  |   search.txt
+	 |  |  > HomelessMan
+	 |  |  |   change_outfit.txt
+	 |  |  |   check_outfit.txt
 	 |  |  > Velma
 	 |  |  |  > Addons
 	 |  |  |  |   CalculatePregnancyProbability.txt
@@ -786,6 +919,12 @@
 	 |  |  |   out.txt
 	 |  |  |   study.txt
 	 |  |  > Map
+	 |  |  |  > Academy
+	 |  |  |  |   academy.txt
+	 |  |  |  |   Thron.txt
+	 |  |  |  > Bank
+	 |  |  |  |   bank.txt
+	 |  |  |  |   Shrewd.txt
 	 |  |  |  > Casino
 	 |  |  |  |   Boxing.txt
 	 |  |  |  |   Casino.txt
@@ -809,6 +948,7 @@
 	 |  |  |  |  |  |   Bunny_rev.txt
 	 |  |  |  |  |  |   ButtonUp.txt
 	 |  |  |  |  |  |   Cape.txt
+	 |  |  |  |  |  |   CardboardArmour.txt
 	 |  |  |  |  |  |   Devin.txt
 	 |  |  |  |  |  |   Flags.txt
 	 |  |  |  |  |  |   Glasses.txt
@@ -822,6 +962,8 @@
 	 |  |  |  |  |  |   PatchBra.txt
 	 |  |  |  |  |  |   Piercings.txt
 	 |  |  |  |  |  |   Pubes.txt
+	 |  |  |  |  |  |   RaisedBra.txt
+	 |  |  |  |  |  |   RingedBra.txt
 	 |  |  |  |  |  |   Santa.txt
 	 |  |  |  |  |  |   SexyBra.txt
 	 |  |  |  |  |  |   ShortPants.txt
@@ -837,16 +979,22 @@
 	 |  |  |  |  |  |   ToysMagicWand.txt
 	 |  |  |  |  |  |   Waitress.txt
 	 |  |  |  |  |  |   Waitress_sexy.txt
+	 |  |  |  |  |  |   ZippedBra.txt
 	 |  |  |  |   BookShop.txt
 	 |  |  |  |   buy.txt
 	 |  |  |  |   buyOne.txt
 	 |  |  |  |   buyOneV2.txt
 	 |  |  |  |   buyV2.txt
 	 |  |  |  |   ClothingShop.txt
-	 |  |  |  |   CosplayShop.txt
+	 |  |  |  |   ClothingShop_goto.txt
+	 |  |  |  |   CosplayShop_goto.txt
+	 |  |  |  |   CosplayShop_shop.txt
+	 |  |  |  |   HomelessMan.txt
 	 |  |  |  |   JobShop.txt
 	 |  |  |  |   Mall.txt
-	 |  |  |  |   SexyShop.txt
+	 |  |  |  |   SexyShop_goto.txt
+	 |  |  |  |   SexyShop_shop.txt
+	 |  |  |  |   SexyShop_talk.txt
 	 |  |  > Park
 	 |  |  |  > WalkScooby
 	 |  |  |  |   Velma.txt
@@ -864,9 +1012,80 @@
 	 |  |  |   VelmaInfluence.txt
 	 |  |  |   VelmaPregnant.txt
 	 |  |  |   VelmaWound.txt
+	 |  > SideQuests
+	 |  |  > RedNecklace
+	 |  |  |   cosplay_seller.txt
+	 |  |  |   cosplay_seller_mannequin.txt
+	 |  |  |   cosplay_seller_safe.txt
+	 |  |  |   cosplay_seller_sword.txt
+	 |  |  |   generate_values.txt
+	 |  |  |   homeless.txt
+	 |  |  |   homeless_get.txt
+	 |  |  |   mistress.txt
+	 |  |  |   mistress_reward.txt
+	 |  |  |   question_builder.txt
+	 |  |  |   tax_man.txt
+	 |  |  |   tax_man_bust.txt
+	 |  |  |   tax_man_ledger.txt
+	 |  |  |   tax_man_permit.txt
+	 |  |  |   tax_man_safe.txt
+	 |  |  |   tax_man_stuff.txt
+	 |  |  |   test.txt
+	 |  |  |   x_seller.txt
+	 |  |  |   x_seller_board.txt
+	 |  |  |   x_seller_logo.txt
+	 |  |  |   x_seller_pillar.txt
+	 |  |  |   x_seller_search.txt
 	 |   intro.txt
 	 |   test.txt
 # > HScenes
+	 |  > Anisa
+	 |  |  > Search
+	 |  |  |  > parts
+	 |  |  |  |   P_ass_deep.png
+	 |  |  |  |   P_ass_deep_xray.png
+	 |  |  |  |   P_ass_fingers.png
+	 |  |  |  |   P_ass_full.png
+	 |  |  |  |   P_ass_full_xray.png
+	 |  |  |  |   P_ass_hand_full.png
+	 |  |  |  |   P_ass_hand_simple.png
+	 |  |  |  |   P_ass_insert.png
+	 |  |  |  |   P_ass_insides_deep.png
+	 |  |  |  |   P_ass_insides_full.png
+	 |  |  |  |   P_ass_object_capsule.png
+	 |  |  |  |   P_ass_object_egg.png
+	 |  |  |  |   P_ass_object_inside.png
+	 |  |  |  |   P_ass_simple.png
+	 |  |  |  |   P_mouth_full_inserted_1.png
+	 |  |  |  |   P_mouth_full_inserted_1_hand.png
+	 |  |  |  |   P_mouth_full_inserted_1_spit.png
+	 |  |  |  |   P_mouth_full_inserted_2.png
+	 |  |  |  |   P_mouth_full_inserted_2_hand.png
+	 |  |  |  |   P_mouth_full_inserted_2_spit_1.png
+	 |  |  |  |   P_mouth_full_inserted_2_spit_2.png
+	 |  |  |  |   P_mouth_inserted.png
+	 |  |  |  |   P_mouth_inserted_hand.png
+	 |  |  |  |   P_mouth_simple.png
+	 |  |  |  |   P_pussy_back.png
+	 |  |  |  |   P_pussy_back_full.png
+	 |  |  |  |   P_pussy_fingers.png
+	 |  |  |  |   P_pussy_full.png
+	 |  |  |  |   P_pussy_full_xray.png
+	 |  |  |  |   P_pussy_hand_simple.png
+	 |  |  |  |   P_pussy_hand_wet_1.png
+	 |  |  |  |   P_pussy_insert.png
+	 |  |  |  |   P_pussy_insert_xray.png
+	 |  |  |  |   P_pussy_object_inside.png
+	 |  |  |  |   P_pussy_object_out.png
+	 |  |  |  |   P_pussy_simple.png
+	 |  |  |  |   P_pussy_simple_wet.png
+	 |  |  |  |   P_undress_back.png
+	 |  |  |  |   P_undress_dressed.png
+	 |  |  |  |   P_undress_undressed.png
+	 |  |  |   controller.json
+	 |  |  |   controller1.json
+	 |  |  |   controller2.json
+	 |  |  |   controller3.json
 	 |  > Basement
 	 |  |   horse.png
 	 |  > Bathroom
@@ -1297,10 +1516,17 @@
 	 |  |   Tray.png
 	 |  |   tshirt.png
 # > Outfits
+	 |  > Homeless man
+	 |  |   cleaned.txt
+	 |  |   default.txt
 	 |  > Shaggy
 	 |  |   manequinn.txt
 	 |  |   nude.txt
 	 |  |   waiter.txt
+	 |  > Shrewd
+	 |  |   default.txt
+	 |  > Thorn
+	 |  |   default.txt
 	 |  > Velma
 	 |  |   advertise.txt
 	 |  |   advertise_heavy_used.txt
@@ -1324,9 +1550,24 @@
 	 |  |   Painting.png
 	 |  |   panis.png
 	 |  > Map
+	 |  |  > Bank
+	 |  |  |   bust.png
+	 |  |  |   ledge.png
+	 |  |  |   stuff.png
 	 |  |  > Mall
+	 |  |  |  > CosplayShop
+	 |  |  |  |   manequine.png
+	 |  |  |  |   safe.png
+	 |  |  |  |   sword.png
+	 |  |  |  > SexShop
+	 |  |  |  |   board.png
+	 |  |  |  |   logo light.png
+	 |  |  |  |   logo.png
+	 |  |  |  |   pillar.png
 	 |  |  |   clothing.png
 	 |  |  |   cosplay.png
+	 |  |  |   hex.png
+	 |  |  |   homeless.png
 	 |  |  |   job.png
 	 |  > ShaggyRoom
 	 |  |   bed.png
@@ -1338,6 +1579,7 @@
 # > Sounds
 	 |  > Music
 	 |  |   Cheerful-Whistling.mp3
+	 |  |   Comedy-Detective.mp3
 	 |  |   Cozy-Place-Chill.mp3
 	 |  |   Fluffing-a-Duck.mp3
 	 |  |   Hip-Hop-Rock-Beats.mp3
@@ -1368,6 +1610,7 @@
 	 |  |  |  |   drill2.wav
 	 |  |  |  |   pump.wav
 	 |  |  |  |   ratchet.wav
+	 |  |  |   A NEW HAND TOUCHES THE BEACON.mp3
 	 |  |  |   electrick shock.wav
 	 |  |  |   key.wav
 	 |  |  |   key2.wav
@@ -1438,5 +1681,6 @@
 	 |   books.txt
 	 |   clothing.txt
 	 |   cosplay.txt
+	 |   homeless_man.txt
 	 |   job.txt
 	 |   sexy_shop.txt
