@@ -7,7 +7,7 @@
     
         -> specials:
             * input -> last user input, empty string by default
-* moveTo [room_name] [background_variant_name] [do_not_load_props](only this value)
+* moveTo [room_name] [background_variant_name] [do_not_load_props](explicit)
 * dialogue
     * start <dial_name> [continue_from_this_point](any value, multiple values allowed)
         > automatically set temporary arguments: @arg_s<i> for string and $arg_t<i> for equations contained in [continue_from_this_point]
@@ -42,7 +42,7 @@
 * c <name> <command_parts>
     > shortcut for command: dialogue character <command_part> <name> <rest_of_commands_parts>
 * outfit <car_name> <command> <name> [C=<color>] [A=<alpha>]
-    * command can be: wearCloth, wearMisc, removeTag
+    * command can be: wearCloth, wearMisc, removeTag, setDefault, openEditor(no <name> required for this)
 * notification <notification_text>
 * if <boolean_equation>
 * movecharacterto <car_name> <place_name>
@@ -74,6 +74,11 @@
     * play <state_name>
     * sound <sound_name>
     * sound stop <sound_name>
+* HSlide
+    * start <hslide_name>
+    * stop
+    * play <animation_name>
+    * setParameter <param_name> <_equation>
 * Minigame
     * start <minigame_name> [arguments]
 * book <book_name>
@@ -82,10 +87,18 @@
     * music [music_name]
     * sfx <sfx_clip_sound_name>
     * stop <sfx_clip_sound_name>
+    * setGlobalMusic [music_name]
+        > change default background music
+        > if [music_name] is not present, the default would reset to original
 * openInput
 * store
-    * open <file_name> <display_name> [seller_image]
+    * open <file_name> <display_name> [seller_image] [background]
+        > seller_image can be "none" if you want no seller image
     * close
+    * removeChars
+        >remove characters from background. they wil reappear when the shop is closed
+* resetAppearance
+    > used to force reset gang appearance in chase of changes to the code (it will not change saved outfits or any game data)
 
 # Variable type
 * \# -> global variable

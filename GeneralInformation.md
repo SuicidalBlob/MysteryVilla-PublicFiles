@@ -67,3 +67,33 @@
 - BookStory:
 - PastStory:
 - OtherStory:
+
+# Daphne:
+-love
+    >
+-slave
+
+| value | brothel                  | general                  | nicknames                 |
+| ----- | ------------------------ | ------------------------ | ------------------------- |
+| >10   | smile at catcall         |                          |                           |
+| >15   | flirt with stranger      |                          |                           |
+| >20   | smile at touching        |                          |                           |
+| >25   | will blush at touching   |                          |                           |
+| >30   | strip top                |                          |                           |
+| >40   | strip bottom             | stranger handJ           | will call herself a slut  |
+| >50   | strip bra                | stranger suck            |                           |
+| >60   | accept light hits        | stranger deep            |                           |
+| >70   | strip panties            | stranger sex             | will call herself a whore |
+| >80   | like light hits          | drink cum                |                           |
+| >85   |                          | stranger anal            |                           |
+| >90   | like heavy hits          | drink piss + ass licking |                           |
+-DojoStory:
+    -0 discover she is in a dojo
+    -1 catcall
+    -2 touching
+    -3 expose
+    -4 light hit
+    -5 hard hit
+-PastStory
+-FashionStory
+-OtherStory

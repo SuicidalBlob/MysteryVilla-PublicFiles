@@ -14,6 +14,8 @@
 	 |  > DaphneRoom
 	 |  |   back.png
 	 |  |   pref.prefab
+	 |  > Dojo
+	 |  |   back.png
 	 |  > FredRoom
 	 |  |   back.png
 	 |  |   pref.prefab
@@ -162,19 +164,43 @@
 	 |  |  |   1.png
 	 |  |  |   2.png
 	 |  |  |   3.png
+	 |  |  |   Butt.png
 	 |  |  > Clothing
+	 |  |  |   bikini.png
+	 |  |  |   bra.png
+	 |  |  |   bra1.png
+	 |  |  |   cute_dress.png
 	 |  |  |   dress1.png
 	 |  |  |   dress2.png
+	 |  |  |   fancy_dress.png
 	 |  |  |   fish.png
+	 |  |  |   karategi_bottom.png
+	 |  |  |   karategi_top.png
+	 |  |  |   karategi_top_exposed.png
+	 |  |  |   karategi_top_open.png
+	 |  |  |   leather_pants_short.png
+	 |  |  |   mannequin_body.png
+	 |  |  |   mannequin_butt.png
+	 |  |  |   mannequin_head.png
+	 |  |  |   panties.png
+	 |  |  |   panties1.png
+	 |  |  |   panties1_butt.png
+	 |  |  |   panties_butt.png
 	 |  |  |   Pantyhose1.png
 	 |  |  |   santa.png
 	 |  |  |   sexy_shirt.png
 	 |  |  |   shirt.png
 	 |  |  |   short_shirt.png
+	 |  |  |   sports_bottom.png
+	 |  |  |   sports_top.png
 	 |  |  |   s_d0.png
 	 |  |  |   s_d1.png
 	 |  |  |   s_d2.png
 	 |  |  |   s_d3.png
+	 |  |  |   thong.png
+	 |  |  |   thong_butt.png
+	 |  |  |   waitress_down.png
+	 |  |  |   waitress_up.png
 	 |  |  > Eyebrow
 	 |  |  |   0.png
 	 |  |  |   1.png
@@ -182,6 +208,7 @@
 	 |  |  |   ahegao.png
 	 |  |  |   angry.png
 	 |  |  |   bored.png
+	 |  |  |   close.png
 	 |  |  |   cum.png
 	 |  |  |   happy.png
 	 |  |  |   horny.png
@@ -194,12 +221,21 @@
 	 |  |  |   0_front.png
 	 |  |  |   back.png
 	 |  |  |   hair.png
+	 |  |  > Head
+	 |  |  |   ahegao.png
+	 |  |  |   head.png
+	 |  |  |   oh.png
 	 |  |  > Misc
+	 |  |  |   bags_back.png
+	 |  |  |   bags_front.png
+	 |  |  |   belt.png
 	 |  |  |   blindfold.png
+	 |  |  |   blush.png
 	 |  |  |   cum1.png
 	 |  |  |   cum2.png
 	 |  |  |   cum3.png
 	 |  |  |   c_piercing.png
+	 |  |  |   ear_elf.png
 	 |  |  |   Glasses.png
 	 |  |  |   Glasses2.png
 	 |  |  |   leash.png
@@ -209,8 +245,16 @@
 	 |  |  |   n_piercing2.png
 	 |  |  |   pubes0.png
 	 |  |  |   pubes1.png
+	 |  |  |   scarf.png
 	 |  |  |   sung.png
+	 |  |  |   sunglasses.png
+	 |  |  |   sunglasses_arm.png
 	 |  |  |   tag.png
+	 |  |  |   tears.png
+	 |  |  |   tears_small.png
+	 |  |  |   tray.png
+	 |  |  |   tray_drinks.png
+	 |  |  |   tray_toys.png
 	 |  |  > Mouth
 	 |  |  |   ahegao.png
 	 |  |  |   angry.png
@@ -221,14 +265,14 @@
 	 |  |  |   neutral.png
 	 |  |  |   oh.png
 	 |  |  |   out.png
+	 |  |  |   sad.png
 	 |  |   clothing.txt
-	 |  |   head.png
 	 |  |   misc.txt
 	 |  |   prefab.prefab
-	 |  |   prefab_.prefab
 	 |  > Fred
 	 |  |  > Body
 	 |  |  |   0.png
+	 |  |  |   1.png
 	 |  |  > Clothing
 	 |  |  |   bluejeans.png
 	 |  |  |   santa.png
@@ -239,16 +283,18 @@
 	 |  |  |   1.png
 	 |  |  > Eyes
 	 |  |  |   0.png
+	 |  |  > Hair
+	 |  |  |   0_front.png
+	 |  |  > Head
+	 |  |  |   0.png
 	 |  |  > Misc
 	 |  |  |   cage.png
 	 |  |  |   tag.png
 	 |  |  > Mouths
 	 |  |  |   0.png
 	 |  |   clothing.txt
-	 |  |   Hair.png
 	 |  |   misc.txt
 	 |  |   prefab.prefab
-	 |  |   prefab_.prefab
 	 |  > Hana
 	 |  |   prefab.prefab
 	 |  > Homeless man
@@ -468,12 +514,14 @@
 	 |  |  |   pregnant3.png
 	 |  |  |   x_ray_back.png
 	 |  |  |   x_ray_uterus.png
+	 |  |  |   _tied_hands.png
 	 |  |  > Butt
 	 |  |  |   Background.png
 	 |  |  |   Butt.png
 	 |  |  |   xray.png
 	 |  |  > Clothing
 	 |  |  |   bikiny.png
+	 |  |  |   blouse.png
 	 |  |  |   body0_33_7045_1.png
 	 |  |  |   body1_-45_7986_1.png
 	 |  |  |   body2.png
@@ -492,6 +540,7 @@
 	 |  |  |   bra4.png
 	 |  |  |   bunny.png
 	 |  |  |   bunny_ear.png
+	 |  |  |   bunny_latex.png
 	 |  |  |   bunny_rev.png
 	 |  |  |   cape_cloack_down.png
 	 |  |  |   cape_cloack_up.png
@@ -601,8 +650,6 @@
 	 |  |  |   1_front.png
 	 |  |  |   2_front.png
 	 |  |  |   3_front.png
-	 |  |  > HairFront
-	 |  |  |   h1.png
 	 |  |  > Head
 	 |  |  |   0.png
 	 |  |  |   oh.png
@@ -621,6 +668,8 @@
 	 |  |  |   body_writing.png
 	 |  |  |   body_writing_used.png
 	 |  |  |   bow.png
+	 |  |  |   bunny_tail.png
+	 |  |  |   bunny_tail_butt.png
 	 |  |  |   butterfly.png
 	 |  |  |   butt_buise.png
 	 |  |  |   butt_pllug.png
@@ -685,9 +734,8 @@
 	 |  |  |   tally0.png
 	 |  |  |   tattoo_baby_killer.png
 	 |  |  |   tattoo_baby_maker.png
-	 |  |  |   tears.png
-	 |  |  |   tears_small.png
 	 |  |  |   tray.png
+	 |  |  |   tray_corset.png
 	 |  |  |   tray_drinks.png
 	 |  |  |   tray_toys.png
 	 |  |  |   tribal_tattoo.png
@@ -697,6 +745,7 @@
 	 |  |  |   whip_marks_butt.png
 	 |  |  |   wingd_angel.png
 	 |  |  |   wingd_demon.png
+	 |  |  |   words.png
 	 |  |  > Mouth
 	 |  |  |   ahegao.png
 	 |  |  |   angry.png
@@ -772,7 +821,6 @@
 	 |  |   clothing.txt
 	 |  |   misc.txt
 	 |  |   prefab.prefab
-	 |  |   prefab_.prefab
 	 |  > Villa
 	 |  |  > Body
 	 |  |  |   0.png
@@ -786,6 +834,35 @@
 	 |  > Caracters
 	 |  |  > Anisa
 	 |  |  |   search.txt
+	 |  |  > Daphne
+	 |  |  |  > Addons
+	 |  |  |  |   HSceneClothing.txt
+	 |  |  |  > Story
+	 |  |  |  |   Brothel0.txt
+	 |  |  |  |   Dojo0.txt
+	 |  |  |  |   Dojo1.txt
+	 |  |  |  > Talk
+	 |  |  |  |  > SmallTalk
+	 |  |  |  |  |  > Fashion
+	 |  |  |  |  |  |   fashion0.txt
+	 |  |  |  |  |  |   fashion1.txt
+	 |  |  |  |  |  |   fashion2.txt
+	 |  |  |  |  |  > Other
+	 |  |  |  |  |  > Past
+	 |  |  |  |  |  |   apology.txt
+	 |  |  |  |  |  |   lick.txt
+	 |  |  |  |  |  |   past0.txt
+	 |  |  |  |  |  |   past1.txt
+	 |  |  |  |  |  |   past2.txt
+	 |  |  |  |  |  |   wish.txt
+	 |  |  |  |  |   talk.txt
+	 |  |  |  |  > Train
+	 |  |  |  |  |   catcall.txt
+	 |  |  |  |  |   train.txt
+	 |  |  |  |  |   train_start.txt
+	 |  |  |  |   talk_n.txt
+	 |  |  |  |   talk_s.txt
+	 |  |  |   talk.txt
 	 |  |  > HomelessMan
 	 |  |  |   change_outfit.txt
 	 |  |  |   check_outfit.txt
@@ -866,6 +943,7 @@
 	 |  |  |  |  |   strip.txt
 	 |  |  |  |  |   touch.txt
 	 |  |  |  |  |   touchButt.txt
+	 |  |  |  |   apologyDaphne.txt
 	 |  |  |  |   flirt.txt
 	 |  |  |  |   nicknames.txt
 	 |  |  |  |   talk_n.txt
@@ -884,6 +962,7 @@
 	 |  |  |   XCross.txt
 	 |  |  > Brothel
 	 |  |  |  > Bits
+	 |  |  |  |   DaphneServe.txt
 	 |  |  |  |   VelmaClean.txt
 	 |  |  |  |   VelmaClean_first.txt
 	 |  |  |  |   VelmaClean_first_blowjob.txt
@@ -900,17 +979,27 @@
 	 |  |  |   Manage.txt
 	 |  |  |   Open.txt
 	 |  |  |   ServeMinigame.txt
+	 |  |  > Dojo
+	 |  |  |   DaphneShow.txt
+	 |  |  |   DaphneShow_DaphneTurn.txt
+	 |  |  |   DaphneShow_Lost.txt
+	 |  |  |   DaphneShow_OpponentTurn.txt
+	 |  |  |   DaphneShow_set.txt
 	 |  |  > Hall1
 	 |  |  |   BathroomW.txt
 	 |  |  |   Hole.txt
 	 |  |  |   Hole_Velma.txt
 	 |  |  > Kitchen
+	 |  |  |  > Daphne
+	 |  |  |  |   EatPancakes.txt
+	 |  |  |  |   EatSoup.txt
 	 |  |  |  > Velma
 	 |  |  |  |   EatPancakes.txt
 	 |  |  |  |   EatSoup.txt
 	 |  |  |   Dine.txt
 	 |  |  > Library
 	 |  |  |   Read.txt
+	 |  |  |   ReadBook.txt
 	 |  |  > MainHall
 	 |  |  |  > Study
 	 |  |  |  |   computer.txt
@@ -935,6 +1024,11 @@
 	 |  |  |  |   RedOrBlack_loop.txt
 	 |  |  |  > Mall
 	 |  |  |  |  > Buy
+	 |  |  |  |  |  > Daphne
+	 |  |  |  |  |  |   MicroBikini.txt
+	 |  |  |  |  |  |   Sports.txt
+	 |  |  |  |  |  |   Underwear2.txt
+	 |  |  |  |  |  |   Waitress.txt
 	 |  |  |  |  |  > Shaggy
 	 |  |  |  |  |  |  > Books
 	 |  |  |  |  |  |  |   TheFool.txt
@@ -980,6 +1074,8 @@
 	 |  |  |  |  |  |   Waitress.txt
 	 |  |  |  |  |  |   Waitress_sexy.txt
 	 |  |  |  |  |  |   ZippedBra.txt
+	 |  |  |  |  > Story
+	 |  |  |  |  |   Story6.txt
 	 |  |  |  |   BookShop.txt
 	 |  |  |  |   buy.txt
 	 |  |  |  |   buyOne.txt
@@ -1111,6 +1207,31 @@
 	 |  |  |   controller.json
 	 |  > Brothel
 	 |  |  > Sit
+	 |  |  |  > Daphne
+	 |  |  |  |  > Face
+	 |  |  |  |  |  > Eyes
+	 |  |  |  |  |  |   ahegao.png
+	 |  |  |  |  |  |   angry.png
+	 |  |  |  |  |  |   bored.png
+	 |  |  |  |  |  |   close.png
+	 |  |  |  |  |  |   cum.png
+	 |  |  |  |  |  |   happy.png
+	 |  |  |  |  |  |   horny.png
+	 |  |  |  |  |  |   neutral.png
+	 |  |  |  |  |  |   oh.png
+	 |  |  |  |  |  |   out.png
+	 |  |  |  |  |  |   wink.png
+	 |  |  |  |  > On Table
+	 |  |  |  |  |   fork.png
+	 |  |  |  |  |   spoon.png
+	 |  |  |  |   body.png
+	 |  |  |  |   bra.png
+	 |  |  |  |   dress_body.png
+	 |  |  |  |   dress_drink.png
+	 |  |  |  |   dress_table.png
+	 |  |  |  |   hand_drink.png
+	 |  |  |  |   hand_table.png
+	 |  |  |  |   prefab.prefab
 	 |  |  |  > Velma
 	 |  |  |  |  > Animation
 	 |  |  |  |  |   Climax.anim
@@ -1185,6 +1306,48 @@
 	 |  |  |   drunk_buble_prefab.prefab
 	 |  |  |   HeavyBreading.prefab
 	 |  |  |   table.png
+	 |  > Dojo
+	 |  |  > DaphneFight
+	 |  |  |  > body
+	 |  |  |  |  > Daphne
+	 |  |  |  |  |   Daphne.png
+	 |  |  |  |  |   DaphneKick.png
+	 |  |  |  |  |   DaphneKick_blush.png
+	 |  |  |  |  |   DaphneKick_bruise.png
+	 |  |  |  |  |   DaphneKick_shiny.png
+	 |  |  |  |  |   DaphneKick_sweat.png
+	 |  |  |  |  |   DaphneKick_wet.png
+	 |  |  |  |  |   Daphne_blush.png
+	 |  |  |  |  |   Daphne_bruise.png
+	 |  |  |  |  |   Daphne_shiny.png
+	 |  |  |  |  |   Daphne_sweat.png
+	 |  |  |  |  |   Daphne_wet.png
+	 |  |  |  |  |   Kick0.png
+	 |  |  |  |  |   Kick1.png
+	 |  |  |  |  |   Kick2.png
+	 |  |  |  |  |   Kick3.png
+	 |  |  |  |  |   Kick4.png
+	 |  |  |  |  > Enemy
+	 |  |  |  |  |   Enemy.png
+	 |  |  |  |  |   EnemyGrab.png
+	 |  |  |  |  |   EnemyPunch_hit.png
+	 |  |  |  |  |   EnemyPunch_hit_foot.png
+	 |  |  |  |  |   EnemyPunch_raised.png
+	 |  |  |  |  |   EnemyPunch_raised_foot.png
+	 |  |  |  |  |   EnemySlap_hit.png
+	 |  |  |  |  |   EnemySlap_raised.png
+	 |  |  |  |  |   Punch0.png
+	 |  |  |  |  |   Punch1.png
+	 |  |  |  |  |   Punch2.png
+	 |  |  |  |  |   Punch3.png
+	 |  |  |  |  |   Punch4.png
+	 |  |  |  |  |   Slap0.png
+	 |  |  |  |  |   Slap1.png
+	 |  |  |  |  |   Slap2.png
+	 |  |  |  |  |   Slap3.png
+	 |  |  |  |  |   Slap4.png
+	 |  |  |   controller.json
+	 |  |  |   controller1.json
 	 |  > Effects
 	 |  |  > Screen
 	 |  |  |   FadeIn.anim
@@ -1516,6 +1679,11 @@
 	 |  |   Tray.png
 	 |  |   tshirt.png
 # > Outfits
+	 |  > Daphne
+	 |  |   dojo.txt
+	 |  |   manequinn.txt
+	 |  |   shopping.txt
+	 |  |   waitress.txt
 	 |  > Homeless man
 	 |  |   cleaned.txt
 	 |  |   default.txt
@@ -1542,6 +1710,7 @@
 	 |  |   cum.txt
 	 |  |   manequinn.txt
 	 |  |   nude.txt
+	 |  |   scooby_walk_default.txt
 	 |  |   sexy_waitress.txt
 	 |  |   waitress.txt
 	 |  |   waitress_sexy.txt
@@ -1587,6 +1756,7 @@
 	 |  |   Let-The-Mystery-Unfold.mp3
 	 |  |   Lets-Go-To-The-Park.mp3
 	 |  |   Lobby-Time.mp3
+	 |  |   martial-arts-action-percussive-music.mp3
 	 |  |   Monkeys-Spinning-Monkeys.mp3
 	 |  |   Quirky-Romantic-Spy.mp3
 	 |  |   Romantic-Dinner.mp3
